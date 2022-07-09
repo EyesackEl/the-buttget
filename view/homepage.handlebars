@@ -1,0 +1,14 @@
+{{#each categories as |category|}}
+<div class = "container">
+    <div class = "row">
+        <h2>{{category.name}}</h2>
+    </div>
+    {{#each subCategories as |subCategory|}}
+    <div class = "row">
+        <div class = "col">{{subCategory.title}}</div>
+        <div class = "col">{{subCategory.spent}}</div>
+        <div class = "col">{{subCategory.left}}</div>
+    </div>
+    {{/each}}
+</div>
+{{/each}}
