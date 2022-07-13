@@ -1,9 +1,6 @@
 [
   {
-    "expense": "Electric",
-    "is_fixed": true,
-    "default_value": 100,
-    "user_id": 1,
-    "category": 1
+    "name": "Electric",
+    "category_id": 1
   }
 ]

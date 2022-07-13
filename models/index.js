@@ -11,20 +11,20 @@ Category.belongsTo(User, {
 foreignKey: 'user_id',
 });
 
-User.hasMany(Expense, {
-    foreignKey: 'user_id',
+Category.hasMany(Expense, {
+    foreignKey: 'category_id',
 });
 
-Expense.belongsTo(User, {
-foreignKey: 'user_id',
+Expense.belongsTo(Category, {
+foreignKey: 'category_id',
 });
 
-User.hasMany(Transaction, {
-    foreignKey: 'user_id',
+Expense.hasMany(Transaction, {
+    foreignKey: 'expense_id',
 });
 
-Transaction.belongsTo(User, {
-foreignKey: 'user_id',
+Transaction.belongsTo(Expense, {
+foreignKey: 'expense_id',
 });
 
 module.exports = { User, Category, Expense, Transaction };
