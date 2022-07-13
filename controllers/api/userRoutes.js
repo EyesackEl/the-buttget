@@ -2,12 +2,6 @@ const router = require('express').Router();
 
 
 
-// render login page
-router.get('/login', (req, res) => {
-  render('login')
-})
-
-
 // login post request, will update and replace with validator npm package
 router.post('/login', async (req, res) => {
     try {
@@ -51,12 +45,6 @@ router.post('/logout', (req, res) => {
       res.status(404).end();
     }
 });
-
-
-// render signup page
-router.get('/signup', (req, res) => {
-  render('signUp')
-})
 
 router.post('/signup', async (req, res) => {
   try {
