@@ -1,8 +1,9 @@
 const sequelize = require('../config/connection');
-const { User, Category, Expense, Transaction } = require('../models');
+const { User, Category, Subcategory, Expense, Transaction } = require('../models');
 
 const userSeedData = require('./userSeedData.json');
 const categorySeedData = require('./categorySeedData.json');
+const subcategorySeedData = require('./subcategorySeedData.json');
 const expenseSeedData = require('./expenseSeedData.json');
 const transactionSeedData = require('./transactionSeedData.json');
 
@@ -17,6 +18,12 @@ const seedDatabase = async () => {
   for (const category of categorySeedData) {
     const newCategory = await Category.create({
       ...category,
+    });
+  }
+
+  for (const subcategory of subcategorySeedData) {
+    const newSubcategory = await Subcategory.create({
+      ...subcategory,
     });
   }
 
