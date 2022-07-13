@@ -1,14 +1,12 @@
-{{#each categories as |category|}}
-<div class = "container">
-    <div class = "row">
-        <h2>{{category.name}}</h2>
+{{#with categories as |category|}}
+    <div class = "row text-center">
+        <h3 class = "bdr m-0 py-2">{{category.name}}</h3>
     </div>
-    {{#each subCategories as |subCategory|}}
-    <div class = "row">
-        <div class = "col">{{subCategory.title}}</div>
-        <div class = "col">{{subCategory.spent}}</div>
-        <div class = "col">{{subCategory.left}}</div>
+    <div class = "container bdr g-0"></div>
+    {{#with category.subCategories as |subCategory|}}
+        {{> budget-row}}
+    {{/with}}
     </div>
-    {{/each}}
-</div>
-{{/each}}
+{{/with}}
+
+{{!-- https://handlebarsjs.com/guide/builtin-helpers.html#with --}}
