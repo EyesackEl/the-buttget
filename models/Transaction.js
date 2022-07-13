@@ -13,16 +13,8 @@ Transaction.init(
     },
     value: {
       type: DataTypes.STRING,
-      allowNull: false,
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
-    expense: {
+    expense_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'expense',
@@ -35,7 +27,7 @@ Transaction.init(
     timestamps: true,
     freezeTableName: true,
     underscored: true,
-    modelName: 'expense'
+    modelName: 'transaction'
   }
 );
 
