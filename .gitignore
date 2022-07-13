@@ -1,6 +1,8 @@
 /index.html
 /style.css
 
+.env
+
 # Logs
 logs
 *.log
