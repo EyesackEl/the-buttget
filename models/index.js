@@ -1,5 +1,6 @@
 const User = require('./User');
 const Category = require('./Category');
+const Subcategory = require('./Subcategory');
 const Expense = require('./Expense');
 const Transaction = require('./Transaction');
 
@@ -11,11 +12,19 @@ Category.belongsTo(User, {
 foreignKey: 'user_id',
 });
 
-Category.hasMany(Expense, {
+Category.hasMany(Subcategory, {
     foreignKey: 'category_id',
 });
 
-Expense.belongsTo(Category, {
+Subcategory.belongsTo(Category, {
+foreignKey: 'category_id',
+});
+
+Subcategory.hasMany(Expense, {
+    foreignKey: 'category_id',
+});
+
+Expense.belongsTo(Subcategory, {
 foreignKey: 'category_id',
 });
 
@@ -27,4 +36,4 @@ Transaction.belongsTo(Expense, {
 foreignKey: 'expense_id',
 });
 
-module.exports = { User, Category, Expense, Transaction };
+module.exports = { User, Category, Subcategory, Expense, Transaction };
