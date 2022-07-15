@@ -20,16 +20,9 @@ router.get('/', async (req, res) => {
       console.log(2)
 
       const budgetTables = budgetData.map( (data) => data.get({ plain:true }) );
-<<<<<<< HEAD
-
-      console.log(3)
-
-      res.render('homepage', budgetTables);
-=======
       
 
       res.render('homepage');
->>>>>>> 60fe46cf09fb947af91e34cba0f06a58959913f3
 
       console.log(4)
     }
