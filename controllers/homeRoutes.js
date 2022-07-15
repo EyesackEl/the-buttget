@@ -1,31 +1,34 @@
 const router = require('express').Router();
 const { createDeflate } = require('zlib');
-const { Category, Transaction, Expense, User, Subcategory } = require('../models');
+const { Category, Transaction, Expense, User, } = require('../models');
 
 
 // home page to render all of user based budget table, must check if logged in
 router.get('/', async (req, res) => {
     try {
+      console.log(1)
       const budgetData = await Category.findAll({
         include: [
           // including user name to display just for clarity sake
           {
             model: User,
             attributes: ['name'],
-          },
-          {
-            model: Subcategory
-          },
+          }
         ],
       });
 
+      console.log(2)
 
       const budgetTables = budgetData.map( (data) => data.get({ plain:true }) );
+
+      console.log(3)
+
       res.render('homepage', budgetTables);
 
+      console.log(4)
     }
     catch (err) {
-      res.status(500).json(err);
+      res.status(400).json(err);
     };
 
 })
