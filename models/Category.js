@@ -1,4 +1,4 @@
-const { UUIDV4, Model, DataTypes } = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Category extends Model {}
@@ -11,9 +11,8 @@ Category.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    category: {
+    name: {
       type: DataTypes.STRING,
-      defaultValue: false,
     },
     user_id: {
       type: DataTypes.INTEGER,

@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Transaction extends Model {}
+class Subcategory extends Model {}
 
-Transaction.init(
+Subcategory.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -11,24 +11,24 @@ Transaction.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    value: {
+    name: {
       type: DataTypes.STRING,
     },
-    expense_id: {
+    category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'expense',
+        model: 'category',
         key: 'id',
       },
     },
   },
   {
     sequelize,
-    timestamps: true,
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'transaction'
+    modelName: 'subcategory',
   }
 );
 
-module.exports = Transaction;
+module.exports = Subcategory;

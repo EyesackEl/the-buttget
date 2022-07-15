@@ -11,29 +11,14 @@ Expense.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    expense: {
+    name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    is_fixed: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: true
-    },
-    default_value: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-    },
-    user_id: {
+    subcategory_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
-    category: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'category',
+        model: 'subcategory',
         key: 'id',
       },
     },
