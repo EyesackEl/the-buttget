@@ -21,7 +21,9 @@ router.get('/', async (req, res) => {
 
 
       const budgetTables = budgetData.map( (data) => data.get({ plain:true }) );
-      res.render('homepage', budgetTables);
+      
+
+      res.render('homepage');
 
     }
     catch (err) {
@@ -44,7 +46,7 @@ router.get('/login', (req, res) => {
 
 // render signup page
 router.get('/signup', (req, res) => {
-  render('sign-up')
+  res.render('sign-up');
 })
 
 module.exports = router;
