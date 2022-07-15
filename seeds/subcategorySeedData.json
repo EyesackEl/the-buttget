@@ -2,5 +2,301 @@
   {
     "name": "Electric",
     "category_id": 1
+  },
+  {
+    "name": "Water",
+    "category_id": 1
+  },
+  {
+    "name": "Cable",
+    "category_id": 1
+  },
+  {
+    "name": "Phone",
+    "category_id": 1
+  },
+  {
+    "name": "Gas",
+    "category_id": 2
+  },
+  {
+    "name": "Car Loan",
+    "category_id": 2
+  },
+  {
+    "name": "Car Insurance",
+    "category_id": 2
+  },
+  {
+    "name": "Groceries",
+    "category_id": 3
+  },
+  {
+    "name": "Restaurants",
+    "category_id": 3
+  },
+  {
+    "name": "Pharmacy",
+    "category_id": 3
+  },
+  {
+    "name": "Movies",
+    "category_id": 4
+  },
+  {
+    "name": "Memberships",
+    "category_id": 4
+  },
+  {
+    "name": "Subscriptions",
+    "category_id": 4
+  },
+  {
+    "name": "Rent",
+    "category_id": 5
+  },
+  {
+    "name": "Home Insurance",
+    "category_id": 5
+  },
+  {
+    "name": "Electric",
+    "category_id": 6
+  },
+  {
+    "name": "Water",
+    "category_id": 6
+  },
+  {
+    "name": "Cable",
+    "category_id": 6
+  },
+  {
+    "name": "Phone",
+    "category_id": 6
+  },
+  {
+    "name": "Gas",
+    "category_id": 7
+  },
+  {
+    "name": "Car Loan",
+    "category_id": 7
+  },
+  {
+    "name": "Car Insurance",
+    "category_id": 7
+  },
+  {
+    "name": "Groceries",
+    "category_id": 8
+  },
+  {
+    "name": "Restaurants",
+    "category_id": 8
+  },
+  {
+    "name": "Pharmacy",
+    "category_id": 8
+  },
+  {
+    "name": "Movies",
+    "category_id": 9
+  },
+  {
+    "name": "Memberships",
+    "category_id": 9
+  },
+  {
+    "name": "Subscriptions",
+    "category_id": 9
+  },
+  {
+    "name": "Rent",
+    "category_id": 10
+  },
+  {
+    "name": "Home Insurance",
+    "category_id": 10
+  },
+  {
+    "name": "Electric",
+    "category_id": 11
+  },
+  {
+    "name": "Water",
+    "category_id": 11
+  },
+  {
+    "name": "Cable",
+    "category_id": 11
+  },
+  {
+    "name": "Phone",
+    "category_id": 11
+  },
+  {
+    "name": "Gas",
+    "category_id": 12
+  },
+  {
+    "name": "Car Loan",
+    "category_id": 12
+  },
+  {
+    "name": "Car Insurance",
+    "category_id": 12
+  },
+  {
+    "name": "Groceries",
+    "category_id": 13
+  },
+  {
+    "name": "Restaurants",
+    "category_id": 13
+  },
+  {
+    "name": "Pharmacy",
+    "category_id": 13
+  },
+  {
+    "name": "Movies",
+    "category_id": 14
+  },
+  {
+    "name": "Memberships",
+    "category_id": 14
+  },
+  {
+    "name": "Subscriptions",
+    "category_id": 14
+  },
+  {
+    "name": "Rent",
+    "category_id": 15
+  },
+  {
+    "name": "Home Insurance",
+    "category_id": 15
+  },
+  {
+    "name": "Electric",
+    "category_id": 16
+  },
+  {
+    "name": "Water",
+    "category_id": 16
+  },
+  {
+    "name": "Cable",
+    "category_id": 16
+  },
+  {
+    "name": "Phone",
+    "category_id": 16
+  },
+  {
+    "name": "Gas",
+    "category_id": 17
+  },
+  {
+    "name": "Car Loan",
+    "category_id": 17
+  },
+  {
+    "name": "Car Insurance",
+    "category_id": 17
+  },
+  {
+    "name": "Groceries",
+    "category_id": 18
+  },
+  {
+    "name": "Restaurants",
+    "category_id": 18
+  },
+  {
+    "name": "Pharmacy",
+    "category_id": 18
+  },
+  {
+    "name": "Movies",
+    "category_id": 19
+  },
+  {
+    "name": "Memberships",
+    "category_id": 19
+  },
+  {
+    "name": "Subscriptions",
+    "category_id": 19
+  },
+  {
+    "name": "Rent",
+    "category_id": 20
+  },
+  {
+    "name": "Home Insurance",
+    "category_id": 20
+  },
+  {
+    "name": "Electric",
+    "category_id": 21
+  },
+  {
+    "name": "Water",
+    "category_id": 21
+  },
+  {
+    "name": "Cable",
+    "category_id": 21
+  },
+  {
+    "name": "Phone",
+    "category_id": 21
+  },
+  {
+    "name": "Gas",
+    "category_id": 22
+  },
+  {
+    "name": "Car Loan",
+    "category_id": 22
+  },
+  {
+    "name": "Car Insurance",
+    "category_id": 22
+  },
+  {
+    "name": "Groceries",
+    "category_id": 23
+  },
+  {
+    "name": "Restaurants",
+    "category_id": 23
+  },
+  {
+    "name": "Pharmacy",
+    "category_id": 23
+  },
+  {
+    "name": "Movies",
+    "category_id": 24
+  },
+  {
+    "name": "Memberships",
+    "category_id": 24
+  },
+  {
+    "name": "Subscriptions",
+    "category_id": 24
+  },
+  {
+    "name": "Rent",
+    "category_id": 25
+  },
+  {
+    "name": "Home Insurance",
+    "category_id": 25
   }
 ]

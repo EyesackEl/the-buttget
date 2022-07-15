@@ -2,5 +2,101 @@
   {
     "name": "Utilities",
     "user_id": 1
+  },
+  {
+    "name": "Transportation",
+    "user_id": 1
+  },
+  {
+    "name": "Food & Groceries",
+    "user_id": 1
+  },
+  {
+    "name": "Entertainment",
+    "user_id": 1
+  },
+  {
+    "name": "Housing",
+    "user_id": 1
+  },
+  {
+    "name": "Utilities",
+    "user_id": 2
+  },
+  {
+    "name": "Transportation",
+    "user_id": 2
+  },
+  {
+    "name": "Food & Groceries",
+    "user_id": 2
+  },
+  {
+    "name": "Entertainment",
+    "user_id": 2
+  },
+  {
+    "name": "Housing",
+    "user_id": 2
+  },
+  {
+    "name": "Utilities",
+    "user_id": 3
+  },
+  {
+    "name": "Transportation",
+    "user_id": 3
+  },
+  {
+    "name": "Food & Groceries",
+    "user_id": 3
+  },
+  {
+    "name": "Entertainment",
+    "user_id": 3
+  },
+  {
+    "name": "Housing",
+    "user_id": 3
+  },
+  {
+    "name": "Utilities",
+    "user_id": 4
+  },
+  {
+    "name": "Transportation",
+    "user_id": 4
+  },
+  {
+    "name": "Food & Groceries",
+    "user_id": 4
+  },
+  {
+    "name": "Entertainment",
+    "user_id": 4
+  },
+  {
+    "name": "Housing",
+    "user_id": 4
+  },
+  {
+    "name": "Utilities",
+    "user_id": 5
+  },
+  {
+    "name": "Transportation",
+    "user_id": 5
+  },
+  {
+    "name": "Food & Groceries",
+    "user_id": 5
+  },
+  {
+    "name": "Entertainment",
+    "user_id": 5
+  },
+  {
+    "name": "Housing",
+    "user_id": 5
   }
 ]
