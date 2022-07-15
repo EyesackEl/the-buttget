@@ -17,12 +17,13 @@ router.get('/', async (req, res) => {
         ],
       });
 
-      console.log(2)
+      console.log(budgetData)
 
       const budgetTables = budgetData.map( (data) => data.get({ plain:true }) );
       
+      console.log(budgetTables)
 
-      res.render('homepage');
+      res.render('homepage', budgetTables);
 
       console.log(4)
     }
