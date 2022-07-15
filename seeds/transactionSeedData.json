@@ -1,6 +1,822 @@
 [
   {
-    "value": 100,
+    "value": 12500,
     "expense_id": 1
+  },
+  {
+    "value": 9500,
+    "expense_id": 2
+  },
+  {
+    "value": 15500,
+    "expense_id": 3
+  },
+  {
+    "value": 3995,
+    "expense_id": 4
+  },
+  {
+    "value": 6413,
+    "expense_id": 5
+  },
+  {
+    "value": 3714,
+    "expense_id": 6
+  },
+  {
+    "value": 4994,
+    "expense_id": 6
+  },
+  {
+    "value": 39400,
+    "expense_id": 8
+  },
+  {
+    "value": 13714,
+    "expense_id": 9
+  },
+  {
+    "value": 15000,
+    "expense_id": 10
+  },
+  {
+    "value": 27500,
+    "expense_id": 11
+  },
+  {
+    "value": 8500,
+    "expense_id": 12
+  },
+  {
+    "value": 2498,
+    "expense_id": 12
+  },
+  {
+    "value": 1270,
+    "expense_id": 12
+  },
+  {
+    "value": 1294,
+    "expense_id": 13
+  },
+  {
+    "value": 1294,
+    "expense_id": 13
+  },
+  {
+    "value": 1294,
+    "expense_id": 13
+  },
+  {
+    "value": 1294,
+    "expense_id": 13
+  },  
+  {
+    "value": 798,
+    "expense_id": 14
+  },
+  {
+    "value": 2394,
+    "expense_id": 15
+  },
+  {
+    "value": 5348,
+    "expense_id": 15
+  },
+  {
+    "value": 8949,
+    "expense_id": 17
+  },
+  {
+    "value": 495,
+    "expense_id": 18
+  },
+  {
+    "value": 2495,
+    "expense_id": 19
+  },
+  {
+    "value": 3718,
+    "expense_id": 20
+  },
+  {
+    "value": 3396,
+    "expense_id": 21
+  },
+  {
+    "value": 1794,
+    "expense_id": 21
+  },
+  {
+    "value": 3995,
+    "expense_id": 22
+  },
+  {
+    "value": 1500,
+    "expense_id": 23
+  },
+  {
+    "value": 2499,
+    "expense_id": 24
+  },
+  {
+    "value": 1799,
+    "expense_id": 25
+  },
+  {
+    "value": 999,
+    "expense_id": 26
+  },
+  {
+    "value": 1499,
+    "expense_id": 27
+  },
+  {
+    "value": 1399,
+    "expense_id": 28
+  },
+  {
+    "value": 1098,
+    "expense_id": 29
+  },
+  {
+    "value": 1799,
+    "expense_id": 30
+  },
+  {
+    "value": 799,
+    "expense_id": 31
+  },
+  {
+    "value": 1395,
+    "expense_id": 32
+  },
+  {
+    "value": 995,
+    "expense_id": 33
+  },
+  {
+    "value": 176500,
+    "expense_id": 34
+  },
+  {
+    "value": 4942,
+    "expense_id": 35
+  },
+  {
+    "value": 12500,
+    "expense_id": 36
+  },
+  {
+    "value": 9500,
+    "expense_id": 37
+  },
+  {
+    "value": 15500,
+    "expense_id": 38
+  },
+  {
+    "value": 3995,
+    "expense_id": 39
+  },
+  {
+    "value": 6413,
+    "expense_id": 40
+  },
+  {
+    "value": 3714,
+    "expense_id": 41
+  },
+  {
+    "value": 4994,
+    "expense_id": 41
+  },
+  {
+    "value": 39400,
+    "expense_id": 43
+  },
+  {
+    "value": 13714,
+    "expense_id": 44
+  },
+  {
+    "value": 15000,
+    "expense_id": 45
+  },
+  {
+    "value": 27500,
+    "expense_id": 46
+  },
+  {
+    "value": 8500,
+    "expense_id": 47
+  },
+  {
+    "value": 2498,
+    "expense_id": 47
+  },
+  {
+    "value": 1270,
+    "expense_id": 47
+  },
+  {
+    "value": 1294,
+    "expense_id": 48
+  },
+  {
+    "value": 1294,
+    "expense_id": 48
+  },
+  {
+    "value": 1294,
+    "expense_id": 48
+  },
+  {
+    "value": 1294,
+    "expense_id": 48
+  },  
+  {
+    "value": 798,
+    "expense_id": 49
+  },
+  {
+    "value": 2394,
+    "expense_id": 50
+  },
+  {
+    "value": 5348,
+    "expense_id": 50
+  },
+  {
+    "value": 8949,
+    "expense_id": 52
+  },
+  {
+    "value": 495,
+    "expense_id": 53
+  },
+  {
+    "value": 2495,
+    "expense_id": 54
+  },
+  {
+    "value": 3718,
+    "expense_id": 55
+  },
+  {
+    "value": 3396,
+    "expense_id": 56
+  },
+  {
+    "value": 1794,
+    "expense_id": 56
+  },
+  {
+    "value": 3995,
+    "expense_id": 57
+  },
+  {
+    "value": 1500,
+    "expense_id": 58
+  },
+  {
+    "value": 2499,
+    "expense_id": 59
+  },
+  {
+    "value": 1799,
+    "expense_id": 60
+  },
+  {
+    "value": 999,
+    "expense_id": 61
+  },
+  {
+    "value": 1499,
+    "expense_id": 62
+  },
+  {
+    "value": 1399,
+    "expense_id": 63
+  },
+  {
+    "value": 1098,
+    "expense_id": 64
+  },
+  {
+    "value": 1799,
+    "expense_id": 65
+  },
+  {
+    "value": 799,
+    "expense_id": 66
+  },
+  {
+    "value": 1395,
+    "expense_id": 67
+  },
+  {
+    "value": 995,
+    "expense_id": 68
+  },
+  {
+    "value": 176500,
+    "expense_id": 69
+  },
+  {
+    "value": 4942,
+    "expense_id": 70
+  },
+  {
+    "value": 12500,
+    "expense_id": 71
+  },
+  {
+    "value": 9500,
+    "expense_id": 72
+  },
+  {
+    "value": 15500,
+    "expense_id": 73
+  },
+  {
+    "value": 3995,
+    "expense_id": 74
+  },
+  {
+    "value": 6413,
+    "expense_id": 75
+  },
+  {
+    "value": 3714,
+    "expense_id": 76
+  },
+  {
+    "value": 4994,
+    "expense_id": 76
+  },
+  {
+    "value": 39400,
+    "expense_id": 78
+  },
+  {
+    "value": 13714,
+    "expense_id": 79
+  },
+  {
+    "value": 15000,
+    "expense_id": 80
+  },
+  {
+    "value": 27500,
+    "expense_id": 81
+  },
+  {
+    "value": 8500,
+    "expense_id": 82
+  },
+  {
+    "value": 2498,
+    "expense_id": 82
+  },
+  {
+    "value": 1270,
+    "expense_id": 82
+  },
+  {
+    "value": 1294,
+    "expense_id": 83
+  },
+  {
+    "value": 1294,
+    "expense_id": 83
+  },
+  {
+    "value": 1294,
+    "expense_id": 83
+  },
+  {
+    "value": 1294,
+    "expense_id": 83
+  },  
+  {
+    "value": 798,
+    "expense_id": 84
+  },
+  {
+    "value": 2394,
+    "expense_id": 85
+  },
+  {
+    "value": 5348,
+    "expense_id": 85
+  },
+  {
+    "value": 8949,
+    "expense_id": 87
+  },
+  {
+    "value": 495,
+    "expense_id": 88
+  },
+  {
+    "value": 2495,
+    "expense_id": 89
+  },
+  {
+    "value": 3718,
+    "expense_id": 90
+  },
+  {
+    "value": 3396,
+    "expense_id": 91
+  },
+  {
+    "value": 1794,
+    "expense_id": 91
+  },
+  {
+    "value": 3995,
+    "expense_id": 92
+  },
+  {
+    "value": 1500,
+    "expense_id": 93
+  },
+  {
+    "value": 2499,
+    "expense_id": 94
+  },
+  {
+    "value": 1799,
+    "expense_id": 95
+  },
+  {
+    "value": 999,
+    "expense_id": 96
+  },
+  {
+    "value": 1499,
+    "expense_id": 97
+  },
+  {
+    "value": 1399,
+    "expense_id": 98
+  },
+  {
+    "value": 1098,
+    "expense_id": 99
+  },
+  {
+    "value": 1799,
+    "expense_id": 100
+  },
+  {
+    "value": 799,
+    "expense_id": 101
+  },
+  {
+    "value": 1395,
+    "expense_id": 102
+  },
+  {
+    "value": 995,
+    "expense_id": 103
+  },
+  {
+    "value": 176500,
+    "expense_id": 104
+  },
+  {
+    "value": 4942,
+    "expense_id": 105
+  },
+  {
+    "value": 12500,
+    "expense_id": 106
+  },
+  {
+    "value": 9500,
+    "expense_id": 107
+  },
+  {
+    "value": 15500,
+    "expense_id": 108
+  },
+  {
+    "value": 3995,
+    "expense_id": 109
+  },
+  {
+    "value": 6413,
+    "expense_id": 110
+  },
+  {
+    "value": 3714,
+    "expense_id": 111
+  },
+  {
+    "value": 4994,
+    "expense_id": 111
+  },
+  {
+    "value": 39400,
+    "expense_id": 113
+  },
+  {
+    "value": 13714,
+    "expense_id": 114
+  },
+  {
+    "value": 15000,
+    "expense_id": 115
+  },
+  {
+    "value": 27500,
+    "expense_id": 116
+  },
+  {
+    "value": 8500,
+    "expense_id": 117
+  },
+  {
+    "value": 2498,
+    "expense_id": 117
+  },
+  {
+    "value": 1270,
+    "expense_id": 117
+  },
+  {
+    "value": 1294,
+    "expense_id": 118
+  },
+  {
+    "value": 1294,
+    "expense_id": 118
+  },
+  {
+    "value": 1294,
+    "expense_id": 118
+  },
+  {
+    "value": 1294,
+    "expense_id": 118
+  },  
+  {
+    "value": 798,
+    "expense_id": 119
+  },
+  {
+    "value": 2394,
+    "expense_id": 120
+  },
+  {
+    "value": 5348,
+    "expense_id": 120
+  },
+  {
+    "value": 8949,
+    "expense_id": 122
+  },
+  {
+    "value": 495,
+    "expense_id": 123
+  },
+  {
+    "value": 2495,
+    "expense_id": 124
+  },
+  {
+    "value": 3718,
+    "expense_id": 125
+  },
+  {
+    "value": 3396,
+    "expense_id": 126
+  },
+  {
+    "value": 1794,
+    "expense_id": 126
+  },
+  {
+    "value": 3995,
+    "expense_id": 127
+  },
+  {
+    "value": 1500,
+    "expense_id": 128
+  },
+  {
+    "value": 2499,
+    "expense_id": 129
+  },
+  {
+    "value": 1799,
+    "expense_id": 130
+  },
+  {
+    "value": 999,
+    "expense_id": 131
+  },
+  {
+    "value": 1499,
+    "expense_id": 132
+  },
+  {
+    "value": 1399,
+    "expense_id": 133
+  },
+  {
+    "value": 1098,
+    "expense_id": 134
+  },
+  {
+    "value": 1799,
+    "expense_id": 135
+  },
+  {
+    "value": 799,
+    "expense_id": 136
+  },
+  {
+    "value": 1395,
+    "expense_id": 137
+  },
+  {
+    "value": 995,
+    "expense_id": 138
+  },
+  {
+    "value": 176500,
+    "expense_id": 139
+  },
+  {
+    "value": 4942,
+    "expense_id": 140
+  },
+  {
+    "value": 12500,
+    "expense_id": 141
+  },
+  {
+    "value": 9500,
+    "expense_id": 142
+  },
+  {
+    "value": 15500,
+    "expense_id": 143
+  },
+  {
+    "value": 3995,
+    "expense_id": 144
+  },
+  {
+    "value": 6413,
+    "expense_id": 145
+  },
+  {
+    "value": 3714,
+    "expense_id": 146
+  },
+  {
+    "value": 4994,
+    "expense_id": 146
+  },
+  {
+    "value": 39400,
+    "expense_id": 148
+  },
+  {
+    "value": 13714,
+    "expense_id": 149
+  },
+  {
+    "value": 15000,
+    "expense_id": 150
+  },
+  {
+    "value": 27500,
+    "expense_id": 151
+  },
+  {
+    "value": 8500,
+    "expense_id": 152
+  },
+  {
+    "value": 2498,
+    "expense_id": 152
+  },
+  {
+    "value": 1270,
+    "expense_id": 152
+  },
+  {
+    "value": 1294,
+    "expense_id": 153
+  },
+  {
+    "value": 1294,
+    "expense_id": 153
+  },
+  {
+    "value": 1294,
+    "expense_id": 153
+  },
+  {
+    "value": 1294,
+    "expense_id": 153
+  },  
+  {
+    "value": 798,
+    "expense_id": 154
+  },
+  {
+    "value": 2394,
+    "expense_id": 155
+  },
+  {
+    "value": 5348,
+    "expense_id": 155
+  },
+  {
+    "value": 8949,
+    "expense_id": 157
+  },
+  {
+    "value": 495,
+    "expense_id": 158
+  },
+  {
+    "value": 2495,
+    "expense_id": 159
+  },
+  {
+    "value": 3718,
+    "expense_id": 160
+  },
+  {
+    "value": 3396,
+    "expense_id": 161
+  },
+  {
+    "value": 1794,
+    "expense_id": 161
+  },
+  {
+    "value": 3995,
+    "expense_id": 162
+  },
+  {
+    "value": 1500,
+    "expense_id": 163
+  },
+  {
+    "value": 2499,
+    "expense_id": 164
+  },
+  {
+    "value": 1799,
+    "expense_id": 165
+  },
+  {
+    "value": 999,
+    "expense_id": 166
+  },
+  {
+    "value": 1499,
+    "expense_id": 167
+  },
+  {
+    "value": 1399,
+    "expense_id": 168
+  },
+  {
+    "value": 1098,
+    "expense_id": 169
+  },
+  {
+    "value": 1799,
+    "expense_id": 170
+  },
+  {
+    "value": 799,
+    "expense_id": 171
+  },
+  {
+    "value": 1395,
+    "expense_id": 172
+  },
+  {
+    "value": 995,
+    "expense_id": 173
+  },
+  {
+    "value": 176500,
+    "expense_id": 174
+  },
+  {
+    "value": 4942,
+    "expense_id": 175
   }
 ]
