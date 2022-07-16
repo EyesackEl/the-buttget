@@ -51,4 +51,16 @@ router.get('/signup', (req, res) => {
   res.render('sign-up');
 })
 
+router.get('/subcategories', (req, res) => {
+  res.render('subcategories')
+});
+
+router.get('/addSubcategories', (req, res) => {
+  res.render('add-subcategories')
+})
+
+router.get('/categories', (req, res) => {
+  res.render('categories')
+})
+
 module.exports = router;
