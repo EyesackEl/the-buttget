@@ -14,6 +14,10 @@ Category.init(
     name: {
       type: DataTypes.STRING,
     },
+    sum: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
