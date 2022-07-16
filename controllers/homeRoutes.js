@@ -1,31 +1,32 @@
 const router = require('express').Router();
+const exp = require('constants');
 const { createDeflate } = require('zlib');
-const { Category, Transaction, Expense, User, } = require('../models');
+const { Category, Transaction, Expense, User, Subcategory } = require('../models');
 
 
 // home page to render all of user based budget table, must check if logged in
 router.get('/', async (req, res) => {
     try {
-      console.log(1)
-      const budgetData = await Category.findAll({
-        include: [
-          // including user name to display just for clarity sake
-          {
-            model: User,
-            attributes: ['name'],
-          }
-        ],
-      });
 
-      console.log(budgetData)
+      const budgetData = await Category.findAll();
+      const budgetDataRender = budgetData.map( (data) => data.get({ plain:true }) );
 
-      const budgetTables = budgetData.map( (data) => data.get({ plain:true }) );
+      // const subcategories = await Subcategory.findAll();
+      // const subCategoriesRender = subcategories.map( (data) => data.get( { plain: true } ) );
+
+      // const expenses = await Expense.findAll();
+      // const expensesRender = expenses.map( (data) => data.get( { plain: true } ) )
       
-      console.log(budgetTables)
+      // const transactions = await Transaction.findAll();
+      // const transactionsRender = transactions.map( (data) => data.get( { plain: true} ) );
 
-      res.render('homepage', budgetTables);
+      // const users = await User.findAll({
+      //   attributes: { exclude: ['password']},
+      // });
+      // const usersRender = users.map( (data) => data.get( { plain: true} ) );
 
-      console.log(4)
+      res.render('homepage', { budgetDataRender } );
+
     }
     catch (err) {
       res.status(400).json(err);

@@ -1,5 +1,5 @@
 const router = require('express').Router();
-
+const { User } = require('../../models')
 
 
 // login post request, will update and replace with validator npm package
