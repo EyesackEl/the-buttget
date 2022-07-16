@@ -1,32 +1,37 @@
 const router = require('express').Router();
-const exp = require('constants');
+const auth = require('../utils/auth');
 const { createDeflate } = require('zlib');
-const { Category, Transaction, Expense, User, Subcategory } = require('../models');
+const { Category, Transaction, Expense, User, Subcategory, } = require('../models');
 
 
 // home page to render all of user based budget table, must check if logged in
-router.get('/', async (req, res) => {
+//! add an auth here
+router.get('/',  async (req, res) => {
     try {
+      const userData = await User.findByPk(3, {
+        //* where: {user_id: req.session.user_id},
+        attributes: {exclude: ['password']}
+      });
 
-      const budgetData = await Category.findAll();
-      const budgetDataRender = budgetData.map( (data) => data.get({ plain:true }) );
+      const catData = await Category.findAll({
+        where: { user_id: 3},
+        include: [
+          {
+            model: Subcategory
+          }
+        ]
+      });
 
-      // const subcategories = await Subcategory.findAll();
-      // const subCategoriesRender = subcategories.map( (data) => data.get( { plain: true } ) );
+      const user = userData.get({ plain: true});
 
-      // const expenses = await Expense.findAll();
-      // const expensesRender = expenses.map( (data) => data.get( { plain: true } ) )
-      
-      // const transactions = await Transaction.findAll();
-      // const transactionsRender = transactions.map( (data) => data.get( { plain: true} ) );
+      const cats = catData.map((data) => data.get({ plain:true }));
 
-      // const users = await User.findAll({
-      //   attributes: { exclude: ['password']},
-      // });
-      // const usersRender = users.map( (data) => data.get( { plain: true} ) );
+      console.log(`\n\t${JSON.stringify(cats)}\n`);
 
-      res.render('homepage', { budgetDataRender } );
-
+      res.render('homepage', {
+        user: user,
+        categories: cats,
+      });
     }
     catch (err) {
       res.status(400).json(err);
@@ -38,12 +43,12 @@ router.get('/', async (req, res) => {
 // If the user is already logged in, redirect the request to home
 router.get('/login', (req, res) => {
 
-    if (req.session.logged_in) {
-      res.redirect('/');
-      return;
-    }
-  
-    res.render('login');
+  if (req.session.logged_in) {
+    res.redirect('/');
+    return;
+  }
+
+  res.render('login');
 });
 
 // render signup page

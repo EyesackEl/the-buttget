@@ -1,15 +1,26 @@
 <main class = "container container-fluid mt-5">
-    {{#each budgetTables as |category|}}
+    <div class="container-xxl m-0 bdr">
+        <div class="bdr"><h2> Welcome to your ButtGet {{user.name}}! </h2></div>
+        <div class="row justify-content-end text-end">
+            <div class = "col-3 bdr" >Assigned: $<strong id="assignVal">175,000</strong></div>
+            <div class = "col-3 bdr">Available: $<strong id="initVal">{{user.income}}</strong></div>
+        </div>
+    </div>
+    {{#each categories as |category|}}
         <div class = "row text-center">
             <h3 class = "bdr m-0 py-2">{{category.name}}</h3>
         </div>
-        {{!-- <div class = "container bdr g-0"></div>
-        {{#each Subcategory as |subCategory|}}
-
-            {{> budget-row}}
+        <div class = "container bdr g-0"></div>
+        {{#each category.subcategories as |subCategory|}}
+            
+            <div class = "row g-0 my-0 bdr">
+                <div class = "col-4 p-3 bdr text-center"><a href="/subcategory/?subCategory_id={{subCategory.id}}">{{subCategory.name}}</a></div>
+                <div class = "col-4 p-3 bdr">{{subCategory.spend}}</div>
+                <div class = "col-4 p-3 bdr">{{subCategory.left}}</div>
+            </div>
             
         {{/each}}
-        </div> --}}
+        </div>
     {{/each}}
 </main>
 

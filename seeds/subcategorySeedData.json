@@ -1,7 +1,8 @@
 [
   {
     "name": "Electric",
-    "category_id": 1
+    "category_id": 1,
+    "total": 5600
   },
   {
     "name": "Water",
