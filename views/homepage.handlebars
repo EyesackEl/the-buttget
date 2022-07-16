@@ -14,12 +14,10 @@
         {{#each category.subcategories as |subCategory|}}
             
             <div class = "row g-0 my-0 bdr">
-                <a href="/subcategory/?subCategory_id={{subCategory.id}}"><div class = "col-4 p-3 bdr text-center">{{subCategory.name}}</div></a>
+                <div class = "col-4 p-3 bdr text-center"><a href="/subcategory/?subCategory_id={{subCategory.id}}">{{subCategory.name}}</a></div>
                 <div class = "col-4 p-3 bdr">{{subCategory.spend}}</div>
                 <div class = "col-4 p-3 bdr">{{subCategory.left}}</div>
             </div>
-
-            {{!-- {{> budget-row}} --}}
             
         {{/each}}
         </div>
