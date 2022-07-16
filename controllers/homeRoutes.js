@@ -1,30 +1,37 @@
 const router = require('express').Router();
+const auth = require('../utils/auth');
 const { createDeflate } = require('zlib');
-const { Category, Transaction, Expense, User, } = require('../models');
+const { Category, Transaction, Expense, User, Subcategory, } = require('../models');
 
 
 // home page to render all of user based budget table, must check if logged in
-router.get('/', async (req, res) => {
+//! add an auth here
+router.get('/',  async (req, res) => {
     try {
-      console.log(1)
-      const budgetData = await Category.findAll({
-        include: [
-          // including user name to display just for clarity sake
-          {
-            model: User,
-            attributes: ['name'],
-          }
-        ],
+      const userData = await User.findByPk(3, {
+        //* where: {user_id: req.session.user_id},
+        attributes: {exclude: ['password']}
       });
 
-      console.log(2)
+      const catData = await Category.findAll({
+        where: { user_id: 3},
+        include: [
+          {
+            model: Subcategory
+          }
+        ]
+      });
 
-      const budgetTables = budgetData.map( (data) => data.get({ plain:true }) );
-      
+      const user = userData.get({ plain: true});
 
-      res.render('homepage');
+      const cats = catData.map((data) => data.get({ plain:true }));
 
-      console.log(4)
+      console.log(`\n\t${JSON.stringify(cats)}\n`);
+
+      res.render('homepage', {
+        user: user,
+        categories: cats,
+      });
     }
     catch (err) {
       res.status(400).json(err);
@@ -36,12 +43,12 @@ router.get('/', async (req, res) => {
 // If the user is already logged in, redirect the request to home
 router.get('/login', (req, res) => {
 
-    if (req.session.logged_in) {
-      res.redirect('/');
-      return;
-    }
-  
-    res.render('login');
+  if (req.session.logged_in) {
+    res.redirect('/');
+    return;
+  }
+
+  res.render('login');
 });
 
 // render signup page
