@@ -15,6 +15,10 @@ Expense.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    sum: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
     subcategory_id: {
       type: DataTypes.INTEGER,
       references: {
