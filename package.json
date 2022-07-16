@@ -22,5 +22,8 @@
     "nodemon": "^2.0.19",
     "sequelize": "^6.3.5",
     "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
