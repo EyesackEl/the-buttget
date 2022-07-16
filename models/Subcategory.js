@@ -14,6 +14,10 @@ Subcategory.init(
     name: {
       type: DataTypes.STRING,
     },
+    sum: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
     category_id: {
       type: DataTypes.INTEGER,
       references: {

@@ -2,26 +2,31 @@
   {
     "name": "adam",
     "email": "adam@email.com",
-    "password": "password1234"
+    "password": "password1234",
+    "income": 500000
   },
   {
     "name": "matthew",
     "email": "matthew@email.com",
-    "password": "password1234"
+    "password": "password1234",
+    "income": 500000
   },
   {
     "name": "isaac",
     "email": "isaac@email.com",
-    "password": "password1234"
+    "password": "password1234",
+    "income": 500000
   },
   {
     "name": "socheata",
     "email": "socheata@email.com",
-    "password": "password1234"
+    "password": "password1234",
+    "income": 500000
   },
   {
     "name": "david",
     "email": "david@email.com",
-    "password": "password1234"
+    "password": "password1234",
+    "income": 500000
   }
 ]
