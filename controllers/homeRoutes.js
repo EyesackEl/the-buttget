@@ -52,7 +52,6 @@ router.get('/add/category', async (req, res) => {
 router.get('/subcategory', async (req, res) => {
   try {
     const subCatQuery = req.query.subCategory_id; 
-    const subCatData = await Subcategory.findByPk(subCatQuery)
 
     const subCatData = await Subcategory.findByPk(subCatQuery);
 
