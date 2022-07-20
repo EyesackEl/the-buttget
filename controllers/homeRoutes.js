@@ -6,15 +6,16 @@ const { Category, Transaction, Expense, User, Subcategory, } = require('../model
 
 // home page to render all of user based budget table, must check if logged in
 //! add an auth here
-router.get('/',  async (req, res) => {
+router.get('/',  auth, async (req, res) => {
     try {
-      const userData = await User.findByPk(1, {
+      const userID = req.session.user_id
+      const userData = await User.findByPk(userID, {
         //* where: {user_id: req.session.user_id},
         attributes: {exclude: ['password']}
       });
 
       const catData = await Category.findAll({
-        where: { user_id: 3},
+        where: { user_id: userID},
         include: [
           {
             model: Subcategory
@@ -58,9 +59,9 @@ router.get('/signup', (req, res) => {
 
 router.get('/subcategory', async (req, res) => {
   try {
-    const subCatData = await Subcategory.findByPk(31)
 
     const subCatQuery = req.query.subCategory_id; 
+    const subCatData = await Subcategory.findByPk(subCatQuery)
 
     const expData = await Expense.findAll({
       where: { subcategory_id: subCatQuery},
