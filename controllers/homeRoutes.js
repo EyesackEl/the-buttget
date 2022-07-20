@@ -40,28 +40,21 @@ router.get('/',  auth, async (req, res) => {
     };
 });
 
-
-// If the user is already logged in, redirect the request to home
-router.get('/login', (req, res) => {
-
-  if (req.session.logged_in) {
-    res.redirect('/');
-    return;
+router.get('/add/category', async (req, res) => {
+  try {
+    res.render('add-category')
+  } catch (err) {
+    res.status(400).json(err);
   }
-
-  res.render('login');
+    
 });
-
-// render signup page
-router.get('/signup', (req, res) => {
-  res.render('sign-up');
-})
 
 router.get('/subcategory', async (req, res) => {
   try {
-
     const subCatQuery = req.query.subCategory_id; 
     const subCatData = await Subcategory.findByPk(subCatQuery)
+
+    const subCatData = await Subcategory.findByPk(subCatQuery);
 
     const expData = await Expense.findAll({
       where: { subcategory_id: subCatQuery},
@@ -86,5 +79,40 @@ router.get('/subcategory', async (req, res) => {
     res.status(400).json(err);
   }
 });
+
+router.get('/add/subcategory', async (req, res) => {
+  try {
+    const catId = req.query.category_id;
+
+    const catData = await Category.findByPk(catId);
+
+    const cat = catData.get({ plain: true })
+
+    res.render('add-subCat', {
+      category: cat
+    })
+  } catch (err) {
+    res.status(400).json(err);
+  }
+    
+});
+
+// If the user is already logged in, redirect the request to home
+router.get('/login', (req, res) => {
+
+  if (req.session.logged_in) {
+    res.redirect('/');
+    return;
+  }
+
+  res.render('login');
+});
+
+// render signup page
+router.get('/signup', (req, res) => {
+  res.render('sign-up');
+})
+
+
 
 module.exports = router;
