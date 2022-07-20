@@ -1,7 +1,7 @@
 // this route is for updating and adding categories per user
 const router = require('express').Router();
 const withAuth = require('../../utils/auth');
-const { Category } = require('../../models');
+const { Category, Subcategory } = require('../../models');
 
 
 // add new category per user
@@ -29,6 +29,17 @@ router.put('/sub', withAuth, async (req, res) => {
     }
 });
 
+
+// router.put('/sub', withAuth, async (req, res) => {
+//     try{
+//         Subcategory.create({
+//             name: req.body.name,
+//             user_id: req.body.userid,
+//         })
+//     } catch (err) {
+//         res.status(400).json(err)
+//     }
+// });
 
 
 
