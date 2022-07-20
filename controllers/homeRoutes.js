@@ -5,15 +5,14 @@ const { Category, Transaction, Expense, User, Subcategory, } = require('../model
 
 
 // home page to render all of user based budget table, must check if logged in
-//TODO::  add an auth here
+//! add an auth here
 router.get('/',  async (req, res) => {
     try {
-      const userData = await User.findByPk(3, {
-        //* where: {user_id: req.session.user_id}, ^^^^
+      const userData = await User.findByPk(1, {
+        //* where: {user_id: req.session.user_id},
         attributes: {exclude: ['password']}
       });
 
-      
       const catData = await Category.findAll({
         where: { user_id: 3},
         include: [
@@ -57,5 +56,35 @@ router.get('/signup', (req, res) => {
   res.render('sign-up');
 })
 
+router.get('/subcategory', async (req, res) => {
+  try {
+    const subCatData = await Subcategory.findByPk(31)
+
+    const subCatQuery = req.query.subCategory_id; 
+
+    const expData = await Expense.findAll({
+      where: { subcategory_id: subCatQuery},
+      include: [
+        {
+          model: Transaction
+        }
+      ]
+    })
+
+    const subCat = subCatData.get({ plain: true});
+    const expenses = expData.map((data) => data.get({ plain:true }));
+
+    console.log(`\n${JSON.stringify(subCat)}\n`)
+    console.log(`\n${JSON.stringify(expenses)}\n`)
+
+    res.render('subCategory', {
+      subCategory: subCat,
+      expenses: expenses
+    });
+  } catch (err) {
+    res.status(400).json(err);
+  }
+
+})
 
 module.exports = router;
