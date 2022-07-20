@@ -2,3 +2,30 @@
     border: 1px dotted red;
 }
 
+.relative {
+    position: relative;
+}
+
+.delCatBtn {
+    position: absolute;
+    right: 2px;
+    top: 6px;
+}
+
+.delSubCatBtn {
+    position: absolute;
+    left: 2px;
+    top: 10px;
+}
+
+.delExpBtn {
+    position: absolute;
+    right: 0;
+    top: 28px;
+}
+
+.delTranBtn {
+    position: absolute;
+    left: 2px;
+    top: 10px;
+}

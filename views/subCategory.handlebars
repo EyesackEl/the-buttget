@@ -5,14 +5,24 @@
             </div>
         </div>
     {{#each expenses as |expense|}}
-        <div class = "row text-center">
-            <h3 class = "bdr m-0 py-2">{{expense.name}}</h3>
+        <div class="relative">
+            <a href='/api/expense/delete/?id={{expense.id}}'class='btn btn-danger delExpBtn'>X</a>
+        <div class = "row text-center justify-content-center bdr">
+            <h3 class = "col-12m-0 py-2">{{expense.name}}</h3>
+            <a id='addTranBtn' class=" col-3 btn btn-success" href="/add/transaction?expense_id={{expense.id}}">+Add a Transaction+</a>
+        </div>
         </div>
         {{#each transactions as |transaction|}}
-        <div class = "row justify-content-center g-0 my-0 bdr">
-                <div class = "col-7 p-3 bdr text-center">{{format_money transaction.value}}</div>
-                <div class="col-3 p-3 bdr text-center">{{format_date transaction.createdAt}}</div>
+        <div class="relative">
+                    <a href='/api/transaction/delete/?id={{transaction.id}}'class='btn btn-danger delTranBtn'>X</a>
+            <div class = "row justify-content-center g-0 my-0 bdr">
+                    <div class = "col-7 p-3 bdr text-center">{{format_money transaction.value}}</div>
+                    <div class="col-3 p-3 bdr text-center">{{format_date transaction.createdAt}}</div>
+            </div>
         </div>
         {{/each}}
     {{/each}}
+    <div class='row justify-content-end'>    
+        <a href='/add/expense?subcategory_id={{subCategory.id}}' class="col-4 btn btn-success me-2 my-1" href="/add/transaction?subcategory_id={{subCategory.id}}">+Add Expense+</a>
+    </div>
 </main>

@@ -7,20 +7,25 @@
         </div>
     </div>
     {{#each categories as |category|}}
-        <div class = "row text-center bdr">
-            <h3 class = "bdr m-0 py-2">{{category.name}}</h3>
-            <a id='addSubCatBtn' class="btn btn-success" href="/add/subcategory?category_id={{category.id}}">+Add Subcategory+</a>
-        </div>
+    <div class = "row text-center bdr relative">
+        <h3 class = "bdr m-0 py-2">{{category.name}}</h3>
+        <a href='/api/category/delete/?id={{category.id}}'class=' col-1 btn btn-danger delCatBtn'>X</a>
+        <a id='addSubCatBtn' class="btn btn-success" href="/add/subcategory?category_id={{category.id}}">+Add Subcategory+</a>
+    </div>
         {{#each category.subcategories as |subCategory|}}
-            <div class = "row g-0 my-0 bdr">
-                <div class = "col-4 p-3 bdr text-center"><a href="/subcategory/?subCategory_id={{subCategory.id}}">{{subCategory.name}}</a></div>
-                <div class = "col-4 p-3 bdr">{{subCategory.spend}}</div>
-                <div class = "col-4 p-3 bdr">{{subCategory.left}}</div>
+        <div class = "row g-0 my-0 bdr relative">
+            <div class = "col-4 p-3 bdr text-center">
+                <a href='/api/subcategory/delete/?id={{subCategory.id}}'class='btn btn-danger delSubCatBtn'>X</a>
+                <a href="/subcategory/?subCategory_id={{subCategory.id}}">{{subCategory.name}}</a>
             </div>
+            <div class = "col-4 p-3 bdr">{{subCategory.spend}}</div>
+            <div class = "col-4 p-3 bdr">{{subCategory.left}}</div>
+        </div>
         {{/each}}
     {{/each}}
-
-    <a href = '/add/category'id='addCatBtn' class="btn btn-success">+Add Category+</a>
+    <div class='row justify-content-end'>    
+        <a href= '/add/category' id='addCatBtn' class=" col-4 btn btn-success me-2 my-1">+Add Category+</a>
+    </div>
 </main>
 
 {{!-- https://handlebarsjs.com/guide/builtin-helpers.html#with --}}
