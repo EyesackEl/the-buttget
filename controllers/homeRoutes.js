@@ -40,27 +40,28 @@ router.get('/',  auth, async (req, res) => {
     };
 });
 
-router.get('/add/category', async (req, res) => {
-  try {
-    res.render('add-category')
-  } catch (err) {
-    res.status(400).json(err);
+
+// If the user is already logged in, redirect the request to home
+router.get('/login', (req, res) => {
+
+  if (req.session.logged_in) {
+    res.redirect('/');
+    return;
   }
-    
+
+  res.render('login');
 });
+
+// render signup page
+router.get('/signup', (req, res) => {
+  res.render('sign-up');
+})
 
 router.get('/subcategory', async (req, res) => {
   try {
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 3823bd235c00318ce4db1b5486af03041f9bf2a7
-=======
->>>>>>> 0040814c8cdf57bfd0dd14df73db0ac6b4665f4c
     const subCatQuery = req.query.subCategory_id; 
-
-    const subCatData = await Subcategory.findByPk(subCatQuery);
+    const subCatData = await Subcategory.findByPk(subCatQuery)
 
     const expData = await Expense.findAll({
       where: { subcategory_id: subCatQuery},
@@ -86,37 +87,13 @@ router.get('/subcategory', async (req, res) => {
   }
 });
 
-router.get('/add/subcategory', async (req, res) => {
-  try {
-    const catId = req.query.category_id;
+router.get('/addSubcategories', (req, res) => {
+  res.render('add-subcategories')
+})
 
-    const catData = await Category.findByPk(catId);
 
-    const cat = catData.get({ plain: true })
-
-    res.render('add-subCat', {
-      category: cat
-    })
-  } catch (err) {
-    res.status(400).json(err);
-  }
-    
-});
-
-// If the user is already logged in, redirect the request to home
-router.get('/login', (req, res) => {
-
-  if (req.session.logged_in) {
-    res.redirect('/');
-    return;
-  }
-
-  res.render('login');
-});
-
-// render signup page
-router.get('/signup', (req, res) => {
-  res.render('sign-up');
+router.get('/addCategories', (req, res) => {
+  res.render('add-category')
 })
 
 
