@@ -25,11 +25,5 @@ const signupFormHandler = async () => {
     }
 };
 
-
-
-captcha.generate(); // Draws the image to the canvas
-
-var captchaText = captcha.text();
-
 document
   .querySelector('#signupBtn').addEventListener('click', signupFormHandler);
