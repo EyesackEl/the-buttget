@@ -1,26 +1,26 @@
-<main class = "container container-fluid mt-5" id="smallMain">
+<main class = "container container-fluid mt-5">
     <h2 class="text-center">Lets sign up!</h2>
 
-    <form class = "row g-1">
+    <form id='signup-form' class = "row g-1">
         <div class="form-group col-sm-6">
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+            <input id='uname-input' type="text" class="form-control" placeholder="Username" aria-label="Username">
         </div>
         <div class="form-group col-sm-6">
-            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+            <input id='email-input' type="text" class="form-control" placeholder="Email" aria-label="Email">
         </div>
         <div class="form-group col-sm-6">
-            <input type="text" class="form-control" placeholder="Password" aria-label="Password">
+            <input id='pword-input1' type="text" class="form-control" placeholder="Password" aria-label="Password">
         </div>
         <div class="form-group col-sm-6">
-            <input type="text" class="form-control" placeholder="Re-Enter Password" aria-label="Re-Enter Password">
+            <input id='pword-input2' type="text" class="form-control" placeholder="Re-Enter Password" aria-label="Re-Enter Password">
         </div>
     </form>
 
     <div class="text-center">
-        <button type="button" class="btn btn-success mt-2">Sign Up!</button>
+        <button id='signupBtn'type="button" class="btn btn-success mt-2">Sign Up!</button>
         <h3>OR</h3>
         <a href="/login"><div type="button" class="btn btn-warning mb-2">Sign In!</div></a>
     </div>
 
-    <script src = "./js/signUp.js"></script>
+    <script src = "./js/signup.js"></script>
 </main>

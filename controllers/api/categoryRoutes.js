@@ -5,7 +5,7 @@ const { Category } = require('../../models');
 
 
 // add new category per user
-router.put('/', withAuth, async (req, res) => {
+router.put('/add', withAuth, async (req, res) => {
     try{
         const postCategory = await Category.create({
             ...req.body,
@@ -14,7 +14,7 @@ router.put('/', withAuth, async (req, res) => {
     } catch (err) {
         res.status(400).json(err)
     }
-})
+});
 
 
 // add new subcategory per user as well, attached to category
@@ -27,7 +27,7 @@ router.put('/sub', withAuth, async (req, res) => {
     } catch (err) {
         res.status(400).json(err)
     }
-})
+});
 
 
 
