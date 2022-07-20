@@ -8,7 +8,7 @@ const { Category, Transaction, Expense, User, Subcategory, } = require('../model
 //! add an auth here
 router.get('/',  async (req, res) => {
     try {
-      const userData = await User.findByPk(3, {
+      const userData = await User.findByPk(1, {
         //* where: {user_id: req.session.user_id},
         attributes: {exclude: ['password']}
       });
@@ -39,12 +39,31 @@ router.get('/',  async (req, res) => {
 
 })
 
+
+// If the user is already logged in, redirect the request to home
+router.get('/login', (req, res) => {
+
+  if (req.session.logged_in) {
+    res.redirect('/');
+    return;
+  }
+
+  res.render('login');
+});
+
+// render signup page
+router.get('/signup', (req, res) => {
+  res.render('sign-up');
+})
+
 router.get('/subcategory', async (req, res) => {
   try {
     const subCatData = await Subcategory.findByPk(31)
 
+    const subCatQuery = req.query.subCategory_id; 
+
     const expData = await Expense.findAll({
-      where: { subcategory_id: 31},
+      where: { subcategory_id: subCatQuery},
       include: [
         {
           model: Transaction
@@ -66,34 +85,6 @@ router.get('/subcategory', async (req, res) => {
     res.status(400).json(err);
   }
 
-})
-
-// If the user is already logged in, redirect the request to home
-router.get('/login', (req, res) => {
-
-  if (req.session.logged_in) {
-    res.redirect('/');
-    return;
-  }
-
-  res.render('login');
-});
-
-// render signup page
-router.get('/signup', (req, res) => {
-  res.render('sign-up');
-})
-
-router.get('/subcategories', (req, res) => {
-  res.render('subCategory')
-});
-
-router.get('/addSubcategories', (req, res) => {
-  res.render('add-subcategories')
-})
-
-router.get('/addCategories', (req, res) => {
-  res.render('add-category')
 })
 
 module.exports = router;
