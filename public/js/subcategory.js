@@ -4,13 +4,15 @@ const newSubCatForm = async (event) => {
     console.log(1)
 
     const name = document.querySelector('#newSub').value.trim();
+    const params = new URLSearchParams(window.location.search);
+    const catID = params.get('category_id');
 
     console.log(name)
 
-    if (name) {
+    if (name && catID) {
         const response = await fetch(`/api/subcategory/add`, {
           method: 'POST',
-          body: JSON.stringify({ name }),
+          body: JSON.stringify({ name, catID }),
           headers: {
             'Content-Type': 'application/json',
           },
@@ -28,7 +30,7 @@ const newSubCatForm = async (event) => {
 const delButtonHandler = async (event) => {
     const id = event.target.getAttribute('data-id');
 
-    const response = await fetch(`/api/projects/${id}`, {
+    const response = await fetch(`/api/subcategory/delete`, {
     method: 'DELETE',
     });
 
