@@ -12,7 +12,7 @@
         </div>
         {{#each category.subcategories as |subCategory|}}
             <div class = "row g-0 my-0 bdr">
-                <div class = "col-4 p-3 bdr text-center"><a href="/subcategory/?subCategory_id={{subCategory.id}}">{{subCategory.name}}</a></div>
+                <div class = "col-4 p-3 bdr text-center"><a href="/api/subcategory/?subCategory_id={{subCategory.id}}">{{subCategory.name}}</a></div>
                 <div class = "col-4 p-3 bdr">{{subCategory.spend}}</div>
                 <div class = "col-4 p-3 bdr">{{subCategory.left}}</div>
             </div>

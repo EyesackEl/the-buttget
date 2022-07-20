@@ -57,30 +57,5 @@ router.get('/signup', (req, res) => {
   res.render('sign-up');
 })
 
-router.get('/subcategory', async (req, res) => {
-
-  const catID = req.query.subCategory_id
-  console.log(catID)
-
-  const catData = await Subcategory.findByPk( catID, {
-    where: { user_id: 3},
-  });
-
-  console.log(catData)
-
-  subCategories = catData.get({ plain:true });
-  console.log(subCategories)
-
-  // // render all subcategories
-  res.render('subCategory', subCategories)
-});
-
-router.get('/addSubcategories', (req, res) => {
-  res.render('add-subcategories')
-})
-
-router.get('/addCategories', (req, res) => {
-  res.render('add-category')
-})
 
 module.exports = router;
