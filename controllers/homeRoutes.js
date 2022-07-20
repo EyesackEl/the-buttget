@@ -31,13 +31,13 @@ router.get('/',  async (req, res) => {
       res.render('homepage', {
         user: user,
         categories: cats,
+        logged_in: req.session.logged_in,
       });
     }
     catch (err) {
       res.status(400).json(err);
     };
-
-})
+});
 
 router.get('/subcategory', async (req, res) => {
   try {
@@ -65,8 +65,7 @@ router.get('/subcategory', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
-
-})
+});
 
 // If the user is already logged in, redirect the request to home
 router.get('/login', (req, res) => {
