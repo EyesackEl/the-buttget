@@ -57,5 +57,19 @@ router.get('/signup', (req, res) => {
   res.render('sign-up');
 })
 
+<<<<<<< HEAD
+=======
+router.get('/subcategories', (req, res) => {
+  res.render('subcategories')
+});
+
+router.get('/addSubcategories', (req, res) => {
+  res.render('add-subcategories')
+})
+
+router.get('/categories', (req, res) => {
+  res.render('categories')
+})
+>>>>>>> parent of 5068ec6 (general setup to render category pages)
 
 module.exports = router;
