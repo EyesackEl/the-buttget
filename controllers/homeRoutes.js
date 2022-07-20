@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const auth = require('../utils/auth');
+const sequelize = require('../config/connection')
 const { createDeflate } = require('zlib');
 const { Category, Transaction, Expense, User, Subcategory, } = require('../models');
 
@@ -23,11 +24,23 @@ router.get('/',  auth, async (req, res) => {
         ]
       });
 
+      const catSumsData = await Transaction.findAll({   //Added to get sums
+        attributes: [
+          'category_id',
+          [sequelize.fn('sum', sequelize.col('value')),'sum'],
+        ],
+        group: ['category_id'],
+      });
+
       const user = userData.get({ plain: true});
 
       const cats = catData.map((data) => data.get({ plain:true }));
 
       console.log(`\n\t${JSON.stringify(cats)}\n`);
+
+      const catSums = catSumsData.map((data) => data.get({ plain: true}));  //Added to get sums
+
+      console.log(`\n\t${JSON.stringify(catSums)}\n`);    //Added to get sums
 
       res.render('homepage', {
         user: user,
@@ -56,6 +69,14 @@ router.get('/subcategory', async (req, res) => {
 
     const subCatData = await Subcategory.findByPk(subCatQuery);
 
+    const subcatSumsData = await Transaction.findAll({    //Added to get sums
+      attributes: [
+        'subcategory_id',
+        [sequelize.fn('sum', sequelize.col('value')),'sum'],
+      ],
+      group: ['subcategory_id'],
+    });
+
     const expData = await Expense.findAll({
       where: { subcategory_id: subCatQuery},
       include: [
@@ -65,16 +86,26 @@ router.get('/subcategory', async (req, res) => {
       ]
     })
 
-
+    const expSumsData = await Transaction.findAll({         //Added to get sums
+      attributes: [
+        'expense_id',
+        [sequelize.fn('sum', sequelize.col('value')),'sum'],
+      ],
+      group: ['expense_id'],
+    });
 
     const catData = await Category.findByPk(catID);
 
     const cat = catData.get( { plain: true } );  
     const subCat = subCatData.get({ plain: true});
     const expenses = expData.map((data) => data.get({ plain:true }));
+    const subcatSums = subcatSumsData.map((data) => data.get({ plain:true }));    //Added to get sums
+    const expSums = expSumsData.map((data) => data.get({ plain:true }));          //Added to get sums
 
     console.log(`\n${JSON.stringify(subCat)}\n`)
     console.log(`\n${JSON.stringify(expenses)}\n`)
+    console.log(`\n${JSON.stringify(subcatSums)}\n`)        //Added to get sums
+    console.log(`\n${JSON.stringify(expSums)}\n`)           //Added to get sums
 
     res.render('subCategory', {
       subCategory: subCat,
