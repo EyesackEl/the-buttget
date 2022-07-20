@@ -5,10 +5,7 @@ const { Subcategory } = require('../../models');
 
 // add new subcategory route
 router.post('/add', withAuth, async (req, res) => {
-    const subcatQuery = req.query.category_id;
     try{
-        
-        console.log(subcatQuery)
         Subcategory.create({
             name: req.body.name,
             user_id: req.session.user_id,
@@ -21,14 +18,15 @@ router.post('/add', withAuth, async (req, res) => {
 
 
 // delete subcategory
-router.delete('/delete', withAuth, async (req, res) => {
+router.delete('/:id', withAuth, async (req, res) => {
     try {
 
-      const subCatQuery = req.query.subCategory_id;
+      const subCatQuery = req.params.id;
+      console.log(subCatQuery)
       const subCat = await Subcategory.destroy({
         where: {
           id: subCatQuery,
-          user_id: req.session.user_id,
+          // user_id: req.session.user_id,
         },
       });
   
