@@ -5,14 +5,15 @@ const { Category, Transaction, Expense, User, Subcategory, } = require('../model
 
 
 // home page to render all of user based budget table, must check if logged in
-//! add an auth here
+//TODO::  add an auth here
 router.get('/',  async (req, res) => {
     try {
       const userData = await User.findByPk(3, {
-        //* where: {user_id: req.session.user_id},
+        //* where: {user_id: req.session.user_id}, ^^^^
         attributes: {exclude: ['password']}
       });
 
+      
       const catData = await Category.findAll({
         where: { user_id: 3},
         include: [
@@ -39,34 +40,6 @@ router.get('/',  async (req, res) => {
 
 })
 
-router.get('/subcategory', async (req, res) => {
-  try {
-    const subCatData = await Subcategory.findByPk(31)
-
-    const expData = await Expense.findAll({
-      where: { subcategory_id: 31},
-      include: [
-        {
-          model: Transaction
-        }
-      ]
-    })
-
-    const subCat = subCatData.get({ plain: true});
-    const expenses = expData.map((data) => data.get({ plain:true }));
-
-    console.log(`\n${JSON.stringify(subCat)}\n`)
-    console.log(`\n${JSON.stringify(expenses)}\n`)
-
-    res.render('subCategory', {
-      subCategory: subCat,
-      expenses: expenses
-    });
-  } catch (err) {
-    res.status(400).json(err);
-  }
-
-})
 
 // If the user is already logged in, redirect the request to home
 router.get('/login', (req, res) => {
@@ -84,8 +57,22 @@ router.get('/signup', (req, res) => {
   res.render('sign-up');
 })
 
-router.get('/subcategories', (req, res) => {
-  res.render('subCategory')
+router.get('/subcategory', async (req, res) => {
+
+  const catID = req.query.subCategory_id
+  console.log(catID)
+
+  const catData = await Subcategory.findByPk( catID, {
+    where: { user_id: 3},
+  });
+
+  console.log(catData)
+
+  subCategories = catData.get({ plain:true });
+  console.log(subCategories)
+
+  // // render all subcategories
+  res.render('subCategory', subCategories)
 });
 
 router.get('/addSubcategories', (req, res) => {
