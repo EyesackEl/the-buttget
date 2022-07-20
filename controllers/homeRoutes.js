@@ -46,7 +46,6 @@ router.get('/add/category', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
-    
 });
 
 router.get('/subcategory', async (req, res) => {
@@ -93,7 +92,38 @@ router.get('/add/subcategory', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
-    
+});
+
+router.get('/add/expense', async (req, res) => {
+  try {
+    const subCatId = req.query.subcategory_id;
+
+    const subCatData = await Subcategory.findByPk(subCatId);
+
+    const subCat = subCatData.get({ plain: true })
+
+    res.render('add-expense', {
+      subcategory: subCat
+    })
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
+router.get('/add/transaction', async (req, res) => {
+  try {
+    const expId = req.query.expense_id;
+
+    const expData = await Expense.findByPk(expId);
+
+    const exp = expData.get({ plain: true })
+
+    res.render('add-transaction', {
+      expense: exp
+    })
+  } catch (err) {
+    res.status(400).json(err);
+  }
 });
 
 // If the user is already logged in, redirect the request to home
