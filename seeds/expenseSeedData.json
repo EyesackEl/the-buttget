@@ -2,876 +2,1051 @@
   {
     "name": "Puget Sound Energy",
     "subcategory_id": 1,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "name": "City of Seattle",
     "subcategory_id": 2,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "name": "Comcast",
     "subcategory_id": 3,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "name": "T-Mobile",
     "subcategory_id": 4,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "name": "Chevron",
     "subcategory_id": 5,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "name": "76",
     "subcategory_id": 5,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "name": "Arco",
     "subcategory_id": 5,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "name": "Bank of America",
     "subcategory_id": 6,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "name": "Geico",
     "subcategory_id": 7,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "name": "Costco",
     "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Walmart",
     "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Safeway",
     "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "McDonalds",
     "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Subway",
     "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Pizza Hut",
     "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Denny's",
     "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Olive Garden",
     "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "CVS",
     "subcategory_id": 10,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Walgreens",
     "subcategory_id": 10,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "name": "Regal",
     "subcategory_id": 11,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "AMC",
     "subcategory_id": 11,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "LA Fitness",
     "subcategory_id": 12,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Community Center",
     "subcategory_id": 12,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "YMCA",
     "subcategory_id": 12,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Netflix",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Spotify",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Amazon Prime",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Hulu",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Xbox Live",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "HBO Max",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Paramount+",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Youtube Premium",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "Disney+",
     "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "name": "A+ Apartments",
     "subcategory_id": 14,
+    "category_id": 5,
     "user_id": 1
   },
   {
     "name": "Allstate",
     "subcategory_id": 15,
+    "category_id": 5,
     "user_id": 1
   },
   {
     "name": "Puget Sound Energy",
     "subcategory_id": 16,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "name": "City of Seattle",
     "subcategory_id": 17,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "name": "Comcast",
     "subcategory_id": 18,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "name": "T-Mobile",
     "subcategory_id": 19,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "name": "Chevron",
     "subcategory_id": 20,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "name": "76",
     "subcategory_id": 20,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "name": "Arco",
     "subcategory_id": 20,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "name": "Bank of America",
     "subcategory_id": 21,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "name": "Geico",
     "subcategory_id": 22,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "name": "Costco",
     "subcategory_id": 23,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Walmart",
     "subcategory_id": 23,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Safeway",
     "subcategory_id": 23,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "McDonalds",
     "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Subway",
     "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Pizza Hut",
     "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Denny's",
     "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Olive Garden",
     "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "CVS",
     "subcategory_id": 25,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Walgreens",
     "subcategory_id": 25,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "name": "Regal",
     "subcategory_id": 26,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "AMC",
     "subcategory_id": 26,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "LA Fitness",
     "subcategory_id": 27,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Community Center",
     "subcategory_id": 27,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "YMCA",
     "subcategory_id": 27,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Netflix",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Spotify",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Amazon Prime",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Hulu",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Xbox Live",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "HBO Max",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Paramount+",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Youtube Premium",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "Disney+",
     "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "name": "A+ Apartments",
     "subcategory_id": 29,
+    "category_id": 10,
     "user_id": 2
   },
   {
     "name": "Allstate",
     "subcategory_id": 30,
+    "category_id": 10,
     "user_id": 2
   },
   {
     "name": "Puget Sound Energy",
     "subcategory_id": 31,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "name": "City of Seattle",
     "subcategory_id": 32,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "name": "Comcast",
     "subcategory_id": 33,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "name": "T-Mobile",
     "subcategory_id": 34,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "name": "Chevron",
     "subcategory_id": 35,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "name": "76",
     "subcategory_id": 35,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "name": "Arco",
     "subcategory_id": 35,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "name": "Bank of America",
     "subcategory_id": 36,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "name": "Geico",
     "subcategory_id": 37,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "name": "Costco",
     "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Walmart",
     "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Safeway",
     "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "McDonalds",
     "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Subway",
     "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Pizza Hut",
     "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Denny's",
     "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Olive Garden",
     "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "CVS",
     "subcategory_id": 40,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Walgreens",
     "subcategory_id": 40,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "name": "Regal",
     "subcategory_id": 41,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "AMC",
     "subcategory_id": 41,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "LA Fitness",
     "subcategory_id": 42,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Community Center",
     "subcategory_id": 42,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "YMCA",
     "subcategory_id": 42,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Netflix",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Spotify",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Amazon Prime",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Hulu",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Xbox Live",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "HBO Max",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Paramount+",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Youtube Premium",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "Disney+",
     "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "name": "A+ Apartments",
     "subcategory_id": 44,
+    "category_id": 15,
     "user_id": 3
   },
   {
     "name": "Allstate",
     "subcategory_id": 45,
+    "category_id": 15,
     "user_id": 3
   },
   {
     "name": "Puget Sound Energy",
     "subcategory_id": 46,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "name": "City of Seattle",
     "subcategory_id": 47,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "name": "Comcast",
     "subcategory_id": 48,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "name": "T-Mobile",
     "subcategory_id": 49,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "name": "Chevron",
     "subcategory_id": 50,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "name": "76",
     "subcategory_id": 50,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "name": "Arco",
     "subcategory_id": 50,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "name": "Bank of America",
     "subcategory_id": 51,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "name": "Geico",
     "subcategory_id": 52,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "name": "Costco",
     "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Walmart",
     "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Safeway",
     "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "McDonalds",
     "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Subway",
     "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Pizza Hut",
     "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Denny's",
     "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Olive Garden",
     "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "CVS",
     "subcategory_id": 55,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Walgreens",
     "subcategory_id": 55,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "name": "Regal",
     "subcategory_id": 56,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "AMC",
     "subcategory_id": 56,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "LA Fitness",
     "subcategory_id": 57,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Community Center",
     "subcategory_id": 57,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "YMCA",
     "subcategory_id": 57,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Netflix",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Spotify",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Amazon Prime",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Hulu",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Xbox Live",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "HBO Max",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Paramount+",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Youtube Premium",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "Disney+",
     "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "name": "A+ Apartments",
     "subcategory_id": 59,
+    "category_id": 20,
     "user_id": 4
   },
   {
     "name": "Allstate",
     "subcategory_id": 60,
+    "category_id": 20,
     "user_id": 4
   },
   {
     "name": "Puget Sound Energy",
     "subcategory_id": 61,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "name": "City of Seattle",
     "subcategory_id": 62,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "name": "Comcast",
     "subcategory_id": 63,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "name": "T-Mobile",
     "subcategory_id": 64,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "name": "Chevron",
     "subcategory_id": 65,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "name": "76",
     "subcategory_id": 65,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "name": "Arco",
     "subcategory_id": 65,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "name": "Bank of America",
     "subcategory_id": 66,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "name": "Geico",
     "subcategory_id": 67,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "name": "Costco",
     "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "Walmart",
     "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "Safeway",
     "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "McDonalds",
     "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "Subway",
     "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "Pizza Hut",
     "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "Denny's",
     "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "Olive Garden",
     "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "CVS",
     "subcategory_id": 70,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "name": "Walgreens",
+    "category_id": 23,
     "subcategory_id": 70,
     "user_id": 5
   },
   {
     "name": "Regal",
     "subcategory_id": 71,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "AMC",
     "subcategory_id": 71,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "LA Fitness",
     "subcategory_id": 72,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Community Center",
     "subcategory_id": 72,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "YMCA",
     "subcategory_id": 72,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Netflix",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Spotify",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Amazon Prime",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Hulu",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Xbox Live",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "HBO Max",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Paramount+",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Youtube Premium",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "Disney+",
     "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "name": "A+ Apartments",
     "subcategory_id": 74,
+    "category_id": 25,
     "user_id": 5
   },
   {
     "name": "Allstate",
     "subcategory_id": 75,
+    "category_id": 25,
     "user_id": 5
   }
 ]

@@ -15,14 +15,17 @@ Expense.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    sum: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-    },
     subcategory_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'subcategory',
+        key: 'id',
+      },
+    },
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'category',
         key: 'id',
       },
     },

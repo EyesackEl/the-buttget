@@ -21,6 +21,20 @@ Transaction.init(
         key: 'id',
       },
     },
+    subcategory_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'subcategory',
+        key: 'id',
+      },
+    },
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'category',
+        key: 'id',
+      },
+    },
     user_id: {
       type: DataTypes.INTEGER,
       references: {

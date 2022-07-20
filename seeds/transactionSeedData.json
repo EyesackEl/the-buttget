@@ -2,1026 +2,1436 @@
   {
     "value": 12500,
     "expense_id": 1,
+    "subcategory_id": 1,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "value": 9500,
     "expense_id": 2,
+    "subcategory_id": 2,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "value": 15500,
     "expense_id": 3,
+    "subcategory_id": 3,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "value": 3995,
     "expense_id": 4,
+    "subcategory_id": 4,
+    "category_id": 1,
     "user_id": 1
   },
   {
     "value": 6413,
     "expense_id": 5,
+    "subcategory_id": 5,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "value": 3714,
     "expense_id": 6,
+    "subcategory_id": 5,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "value": 4994,
     "expense_id": 6,
+    "subcategory_id": 5,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "value": 39400,
     "expense_id": 8,
+    "subcategory_id": 6,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "value": 13714,
     "expense_id": 9,
+    "subcategory_id": 7,
+    "category_id": 2,
     "user_id": 1
   },
   {
     "value": 15000,
     "expense_id": 10,
+    "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 27500,
     "expense_id": 11,
+    "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 8500,
     "expense_id": 12,
+    "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 2498,
     "expense_id": 12,
+    "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 1270,
     "expense_id": 12,
+    "subcategory_id": 8,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 1294,
     "expense_id": 13,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 1294,
     "expense_id": 13,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 1294,
     "expense_id": 13,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 1294,
     "expense_id": 13,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },  
   {
     "value": 798,
     "expense_id": 14,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 2394,
     "expense_id": 15,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 5348,
     "expense_id": 15,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 8949,
     "expense_id": 17,
+    "subcategory_id": 9,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 495,
     "expense_id": 18,
+    "subcategory_id": 10,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 2495,
     "expense_id": 19,
+    "subcategory_id": 10,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 3718,
     "expense_id": 20,
+    "subcategory_id": 11,
+    "category_id": 3,
     "user_id": 1
   },
   {
     "value": 3396,
     "expense_id": 21,
+    "subcategory_id": 11,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1794,
     "expense_id": 21,
+    "subcategory_id": 11,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 3995,
     "expense_id": 22,
+    "subcategory_id": 12,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1500,
     "expense_id": 23,
+    "subcategory_id": 12,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 2499,
     "expense_id": 24,
+    "subcategory_id": 12,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1799,
     "expense_id": 25,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 999,
     "expense_id": 26,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1499,
     "expense_id": 27,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1399,
     "expense_id": 28,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1098,
     "expense_id": 29,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1799,
     "expense_id": 30,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 799,
     "expense_id": 31,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 1395,
     "expense_id": 32,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 995,
     "expense_id": 33,
+    "subcategory_id": 13,
+    "category_id": 4,
     "user_id": 1
   },
   {
     "value": 176500,
     "expense_id": 34,
+    "subcategory_id": 14,
+    "category_id": 5,
     "user_id": 1
   },
   {
     "value": 4942,
     "expense_id": 35,
+    "subcategory_id": 15,
+    "category_id": 5,
     "user_id": 1
   },
   {
     "value": 12500,
     "expense_id": 36,
+    "subcategory_id": 16,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "value": 9500,
     "expense_id": 37,
+    "subcategory_id": 17,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "value": 15500,
     "expense_id": 38,
+    "subcategory_id": 18,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "value": 3995,
     "expense_id": 39,
+    "subcategory_id": 19,
+    "category_id": 6,
     "user_id": 2
   },
   {
     "value": 6413,
     "expense_id": 40,
+    "subcategory_id": 20,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "value": 3714,
     "expense_id": 41,
+    "subcategory_id": 20,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "value": 4994,
     "expense_id": 41,
+    "subcategory_id": 20,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "value": 39400,
     "expense_id": 43,
+    "subcategory_id": 21,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "value": 13714,
     "expense_id": 44,
+    "subcategory_id": 22,
+    "category_id": 7,
     "user_id": 2
   },
   {
     "value": 15000,
     "expense_id": 45,
+    "subcategory_id": 23,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 27500,
     "expense_id": 46,
+    "subcategory_id": 23,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 8500,
     "expense_id": 47,
+    "subcategory_id": 23,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 2498,
     "expense_id": 47,
+    "subcategory_id": 23,
+    "category_id": 18,
     "user_id": 2
   },
   {
     "value": 1270,
     "expense_id": 47,
+    "subcategory_id": 23,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 1294,
     "expense_id": 48,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 1294,
     "expense_id": 48,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 1294,
     "expense_id": 48,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 1294,
     "expense_id": 48,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },  
   {
     "value": 798,
     "expense_id": 49,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 2394,
     "expense_id": 50,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 5348,
     "expense_id": 50,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 8949,
     "expense_id": 52,
+    "subcategory_id": 24,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 495,
     "expense_id": 53,
+    "subcategory_id": 25,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 2495,
     "expense_id": 54,
+    "subcategory_id": 25,
+    "category_id": 8,
     "user_id": 2
   },
   {
     "value": 3718,
     "expense_id": 55,
+    "subcategory_id": 26,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 3396,
     "expense_id": 56,
+    "subcategory_id": 26,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1794,
     "expense_id": 56,
+    "subcategory_id": 26,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 3995,
     "expense_id": 57,
+    "subcategory_id": 27,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1500,
     "expense_id": 58,
+    "subcategory_id": 27,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 2499,
     "expense_id": 59,
+    "subcategory_id": 27,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1799,
     "expense_id": 60,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 999,
     "expense_id": 61,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1499,
     "expense_id": 62,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1399,
     "expense_id": 63,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1098,
     "expense_id": 64,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1799,
     "expense_id": 65,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 799,
     "expense_id": 66,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 1395,
     "expense_id": 67,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 995,
     "expense_id": 68,
+    "subcategory_id": 28,
+    "category_id": 9,
     "user_id": 2
   },
   {
     "value": 176500,
     "expense_id": 69,
+    "subcategory_id": 29,
+    "category_id": 10,
     "user_id": 2
   },
   {
     "value": 4942,
     "expense_id": 70,
+    "subcategory_id": 30,
+    "category_id": 10,
     "user_id": 2
   },
   {
     "value": 12500,
     "expense_id": 71,
+    "subcategory_id": 31,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "value": 9500,
     "expense_id": 72,
+    "subcategory_id": 32,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "value": 15500,
     "expense_id": 73,
+    "subcategory_id": 33,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "value": 3995,
     "expense_id": 74,
+    "subcategory_id": 34,
+    "category_id": 11,
     "user_id": 3
   },
   {
     "value": 6413,
     "expense_id": 75,
+    "subcategory_id": 35,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "value": 3714,
     "expense_id": 76,
+    "subcategory_id": 35,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "value": 4994,
     "expense_id": 76,
+    "subcategory_id": 35,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "value": 39400,
     "expense_id": 78,
+    "subcategory_id": 36,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "value": 13714,
     "expense_id": 79,
+    "subcategory_id": 37,
+    "category_id": 12,
     "user_id": 3
   },
   {
     "value": 15000,
     "expense_id": 80,
+    "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 27500,
     "expense_id": 81,
+    "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 8500,
     "expense_id": 82,
+    "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 2498,
     "expense_id": 82,
+    "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 1270,
     "expense_id": 82,
+    "subcategory_id": 38,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 1294,
     "expense_id": 83,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 1294,
     "expense_id": 83,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 1294,
     "expense_id": 83,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 1294,
     "expense_id": 83,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },  
   {
     "value": 798,
     "expense_id": 84,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 2394,
     "expense_id": 85,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 5348,
     "expense_id": 85,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 8949,
     "expense_id": 87,
+    "subcategory_id": 39,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 495,
     "expense_id": 88,
+    "subcategory_id": 40,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 2495,
     "expense_id": 89,
+    "subcategory_id": 40,
+    "category_id": 13,
     "user_id": 3
   },
   {
     "value": 3718,
     "expense_id": 90,
+    "subcategory_id": 41,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 3396,
     "expense_id": 91,
+    "subcategory_id": 41,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1794,
     "expense_id": 91,
+    "subcategory_id": 41,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 3995,
     "expense_id": 92,
+    "subcategory_id": 42,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1500,
     "expense_id": 93,
+    "subcategory_id": 42,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 2499,
     "expense_id": 94,
+    "subcategory_id": 42,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1799,
     "expense_id": 95,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 999,
     "expense_id": 96,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1499,
     "expense_id": 97,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1399,
     "expense_id": 98,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1098,
     "expense_id": 99,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1799,
     "expense_id": 100,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 799,
     "expense_id": 101,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 1395,
     "expense_id": 102,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 995,
     "expense_id": 103,
+    "subcategory_id": 43,
+    "category_id": 14,
     "user_id": 3
   },
   {
     "value": 176500,
     "expense_id": 104,
+    "subcategory_id": 44,
+    "category_id": 15,
     "user_id": 3
   },
   {
     "value": 4942,
     "expense_id": 105,
+    "subcategory_id": 45,
+    "category_id": 15,
     "user_id": 3
   },
   {
     "value": 12500,
     "expense_id": 106,
+    "subcategory_id": 46,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "value": 9500,
     "expense_id": 107,
+    "subcategory_id": 47,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "value": 15500,
     "expense_id": 108,
+    "subcategory_id": 48,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "value": 3995,
     "expense_id": 109,
+    "subcategory_id": 49,
+    "category_id": 16,
     "user_id": 4
   },
   {
     "value": 6413,
     "expense_id": 110,
+    "subcategory_id": 50,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "value": 3714,
     "expense_id": 111,
+    "subcategory_id": 50,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "value": 4994,
     "expense_id": 111,
+    "subcategory_id": 50,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "value": 39400,
     "expense_id": 113,
+    "subcategory_id": 51,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "value": 13714,
     "expense_id": 114,
+    "subcategory_id": 52,
+    "category_id": 17,
     "user_id": 4
   },
   {
     "value": 15000,
     "expense_id": 115,
+    "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 27500,
     "expense_id": 116,
+    "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 8500,
     "expense_id": 117,
+    "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 2498,
     "expense_id": 117,
+    "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 1270,
     "expense_id": 117,
+    "subcategory_id": 53,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 1294,
     "expense_id": 118,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 1294,
     "expense_id": 118,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 1294,
     "expense_id": 118,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 1294,
     "expense_id": 118,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },  
   {
     "value": 798,
     "expense_id": 119,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 2394,
     "expense_id": 120,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 5348,
     "expense_id": 120,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 8949,
     "expense_id": 122,
+    "subcategory_id": 54,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 495,
     "expense_id": 123,
+    "subcategory_id": 55,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 2495,
     "expense_id": 124,
+    "subcategory_id": 55,
+    "category_id": 18,
     "user_id": 4
   },
   {
     "value": 3718,
     "expense_id": 125,
+    "subcategory_id": 56,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 3396,
     "expense_id": 126,
+    "subcategory_id": 56,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1794,
     "expense_id": 126,
+    "subcategory_id": 56,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 3995,
     "expense_id": 127,
+    "subcategory_id": 57,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1500,
     "expense_id": 128,
+    "subcategory_id": 57,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 2499,
     "expense_id": 129,
+    "subcategory_id": 57,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1799,
     "expense_id": 130,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 999,
     "expense_id": 131,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1499,
     "expense_id": 132,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1399,
     "expense_id": 133,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1098,
     "expense_id": 134,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1799,
     "expense_id": 135,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 799,
     "expense_id": 136,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 1395,
     "expense_id": 137,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 995,
     "expense_id": 138,
+    "subcategory_id": 58,
+    "category_id": 19,
     "user_id": 4
   },
   {
     "value": 176500,
     "expense_id": 139,
+    "subcategory_id": 59,
+    "category_id": 20,
     "user_id": 4
   },
   {
     "value": 4942,
     "expense_id": 140,
+    "subcategory_id": 60,
+    "category_id": 20,
     "user_id": 4
   },
   {
     "value": 12500,
     "expense_id": 141,
+    "subcategory_id": 61,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "value": 9500,
     "expense_id": 142,
+    "subcategory_id": 62,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "value": 15500,
     "expense_id": 143,
+    "subcategory_id": 63,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "value": 3995,
     "expense_id": 144,
+    "subcategory_id": 64,
+    "category_id": 21,
     "user_id": 5
   },
   {
     "value": 6413,
     "expense_id": 145,
+    "subcategory_id": 65,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "value": 3714,
     "expense_id": 146,
+    "subcategory_id": 65,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "value": 4994,
     "expense_id": 146,
+    "subcategory_id": 65,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "value": 39400,
     "expense_id": 148,
+    "subcategory_id": 66,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "value": 13714,
     "expense_id": 149,
+    "subcategory_id": 67,
+    "category_id": 22,
     "user_id": 5
   },
   {
     "value": 15000,
     "expense_id": 150,
+    "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 27500,
     "expense_id": 151,
+    "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 8500,
     "expense_id": 152,
+    "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 2498,
     "expense_id": 152,
+    "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 1270,
     "expense_id": 152,
+    "subcategory_id": 68,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 1294,
     "expense_id": 153,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 1294,
     "expense_id": 153,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 1294,
     "expense_id": 153,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 1294,
     "expense_id": 153,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },  
   {
     "value": 798,
     "expense_id": 154,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 2394,
     "expense_id": 155,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 5348,
     "expense_id": 155,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 8949,
     "expense_id": 157,
+    "subcategory_id": 69,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 495,
     "expense_id": 158,
+    "subcategory_id": 70,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 2495,
     "expense_id": 159,
+    "subcategory_id": 70,
+    "category_id": 23,
     "user_id": 5
   },
   {
     "value": 3718,
     "expense_id": 160,
+    "subcategory_id": 71,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 3396,
     "expense_id": 161,
+    "subcategory_id": 71,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1794,
     "expense_id": 161,
+    "subcategory_id": 71,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 3995,
     "expense_id": 162,
+    "subcategory_id": 72,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1500,
     "expense_id": 163,
+    "subcategory_id": 72,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 2499,
     "expense_id": 164,
+    "subcategory_id": 72,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1799,
     "expense_id": 165,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 999,
     "expense_id": 166,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1499,
     "expense_id": 167,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1399,
     "expense_id": 168,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1098,
     "expense_id": 169,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1799,
     "expense_id": 170,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 799,
     "expense_id": 171,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 1395,
     "expense_id": 172,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 995,
     "expense_id": 173,
+    "subcategory_id": 73,
+    "category_id": 24,
     "user_id": 5
   },
   {
     "value": 176500,
     "expense_id": 174,
+    "subcategory_id": 74,
+    "category_id": 25,
     "user_id": 5
   },
   {
     "value": 4942,
     "expense_id": 175,
+    "subcategory_id": 75,
+    "category_id": 25,
     "user_id": 5
   }
 ]
