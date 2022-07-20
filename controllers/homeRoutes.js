@@ -52,9 +52,12 @@ router.get('/add/category', async (req, res) => {
 router.get('/subcategory', async (req, res) => {
   try {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 3823bd235c00318ce4db1b5486af03041f9bf2a7
+=======
+>>>>>>> 0040814c8cdf57bfd0dd14df73db0ac6b4665f4c
     const subCatQuery = req.query.subCategory_id; 
     const subCatData = await Subcategory.findByPk(subCatQuery)
 
