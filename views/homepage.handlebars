@@ -1,6 +1,6 @@
 <main class = "container container-fluid mt-5">
-    <div class="container-xxl m-0 bdr">
-        <div class="bdr"><h2> Welcome to your ButtGet {{user.name}}! </h2></div>
+    <div id='budgetHead' class="container-xxl m-0">
+        <h2> Welcome to your ButtGet {{user.name}}!</h2>
         <div class="row justify-content-end text-end">
             <div class = "col-3 bdr" >Assigned: $<strong id="assignVal">175,000</strong></div>
             <div class = "col-3 bdr">Available: $<strong id="initVal">{{user.income}}</strong></div>
@@ -8,25 +8,31 @@
     </div>
     {{#each categories as |category|}}
     <div class = "row text-center bdr relative">
-        <h3 class = "bdr m-0 py-2">{{category.name}}</h3>
+        <h3 class = "catName bdr m-0 py-2">{{category.name}}</h3>
         <a href='/api/category/delete/?id={{category.id}}'class=' col-1 btn btn-danger delCatBtn'>X</a>
         <a id='addSubCatBtn' class="btn btn-success" href="/add/subcategory?category_id={{category.id}}">+Add Subcategory+</a>
     </div>
         {{#each category.subcategories as |subCategory|}}
         <div class = "row g-0 my-0 bdr relative">
-            <div class = "col-4 p-3 bdr text-center">
-                <button class='btn btn-danger delSubCatBtn' id="delSubCatButton" data-id="{{subCategory.id}}">X</button>
-                <a href="/subcategory/?subCategory_id={{subCategory.id}}&category_id={{category.id}}">{{subCategory.name}}</a>
+            <div class = "home-col col-4 p-3 bdr text-center">
+                <button class='btn btn-danger delSubCatBtn' data-id="{{subCategory.id}}">X</button>
+                <a class='subCatLink' href="/subcategory/?subCategory_id={{subCategory.id}}&category_id={{category.id}}">
+                    {{subCategory.name}}
+                </a>
             </div>
-            <div class = "col-4 p-3 bdr">{{subCategory.spend}}</div>
-            <div class = "col-4 p-3 bdr">{{subCategory.left}}</div>
+            <div class = "home-col col-4 p-3 bdr">{{subCategory.spend}}</div>
+            <div class = "home-col col-4 p-3 bdr">{{subCategory.left}}</div>
         </div>
         {{/each}}
     {{/each}}
     <div class='row justify-content-end'>    
         <a href= '/add/category' id='addCatBtn' class=" col-4 btn btn-success me-2 my-1">+Add Category+</a>
     </div>
-    <script src="/js/deleteSubcategory.js"></script>
 </main>
+
+
+
+<script src="/js/deleteSubcategory.js"></script>
+
 
 {{!-- https://handlebarsjs.com/guide/builtin-helpers.html#with --}}

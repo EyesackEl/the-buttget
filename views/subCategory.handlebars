@@ -1,19 +1,19 @@
 <main class = "container container-fluid mt-5">
-        <div class="container-sm m-0 bdr">
-            <div class="bdr text-center">
-                <h2>{{subCategory.name}}</h2>
+        <div class="container-sm m-0">
+            <div class="text-center">
+                <h2 class="subCatTxt">{{subCategory.name}}</h2>
             </div>
         </div>
     {{#each expenses as |expense|}}
         <div class="relative">
             <a href='/api/expense/delete/?id={{expense.id}}'class='btn btn-danger delExpBtn'>X</a>
         <div class = "row text-center justify-content-center bdr">
-            <h3 class = "col-12m-0 py-2">{{expense.name}}</h3>
-            <a id='addTranBtn' class=" col-3 btn btn-success" href="/add/transaction?expense_id={{expense.id}}">+Add a Transaction+</a>
+            <h3 class = "subCatTxt col-12m-0 py-2">{{expense.name}}</h3>
+            <a id='addTranBtn' class=" col-5 btn btn-success" href="/add/transaction?expense_id={{expense.id}}">+Add a Transaction+</a>
         </div>
         </div>
         {{#each transactions as |transaction|}}
-        <div class="relative">
+        <div class="expRow relative">
                     <a href='/api/transaction/delete/?id={{transaction.id}}'class='btn btn-danger delTranBtn'>X</a>
             <div class = "row justify-content-center g-0 my-0 bdr">
                     <div class = "col-7 p-3 bdr text-center">{{format_money transaction.value}}</div>

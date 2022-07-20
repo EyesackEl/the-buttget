@@ -1,9 +1,8 @@
 // Login button logic
-const loginFormHandler = async (event) => {
-    event.preventDefault();
-    console.log(1)
-    const email = document.querySelector('#username').value.trim();
-    const password = document.querySelector('#password').value.trim();
+const loginFormHandler = async () => {
+
+    const email = document.querySelector('#emailInput').value.trim();
+    const password = document.querySelector('#pwordInput').value.trim();
 
     const bodyJson = JSON.stringify({ email, password })
 
