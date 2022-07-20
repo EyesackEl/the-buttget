@@ -1,19 +1,19 @@
 <main class = "container container-fluid mt-5" id="smallMain">
-    <h2 class="text-center">Please Sign In!</h2>
+    <h2 id='logHeadTxt' class="text-center">Please Sign In!</h2>
 
     <form class = "row g-1">
         <div class="form-group col-sm-6">
-            <input type="text" id = 'username' class="form-control" placeholder="Username" aria-label="Username">
+            <input type="text" id = 'emailInput' class="form-control" placeholder="Email" aria-label="Email">
         </div>
         <div class="form-group col-sm-6">
-            <input type="text" id = 'password' class="form-control" placeholder="Password" aria-label="Password">
+            <input type="password" id = 'pwordInput' class="form-control" placeholder="Password" aria-label="Password">
         </div>
         
     </form>
 
     <div class="text-center">
         <button type="button" id = 'signInButton' class="btn btn-success mt-2">Sign In!</button>
-        <h3>OR</h3>
+        <h3 id="loginOr">OR</h3>
         <a href="/signup"><div type="button" class="btn btn-warning mb-2">Sign Up!</div></a>
     </div>
 

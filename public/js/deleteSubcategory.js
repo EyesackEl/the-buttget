@@ -1,12 +1,12 @@
 const delSubCat = async (event) => {
     console.log(1);
-    // event.preventDefault();
 
-    const id = event.target.getAttribute('data-id')
+    const id = event.target.dataset.id
+
     console.log(id)
 
     const response = await fetch(`/api/subcategory/${id}`, {
-    method: 'DELETE'
+      method: 'DELETE'
     });
 
     if (response.ok) {
@@ -16,6 +16,8 @@ const delSubCat = async (event) => {
     }    
 };
 
+const delSubCatBtn = document.querySelectorAll('.delSubCatBtn');
 
-
-document.querySelector('#delSubCatButton').addEventListener('click', delSubCat);
+delSubCatBtn.forEach(delBtn => {
+  delBtn.addEventListener('click', delSubCat)
+});
