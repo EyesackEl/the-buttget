@@ -15,8 +15,8 @@
         {{#each category.subcategories as |subCategory|}}
         <div class = "row g-0 my-0 bdr relative">
             <div class = "col-4 p-3 bdr text-center">
-                <a href='/api/subcategory/delete/?id={{subCategory.id}}'class='btn btn-danger delSubCatBtn'>X</a>
-                <a href="/subcategory/?subCategory_id={{subCategory.id}}">{{subCategory.name}}</a>
+                <button class='btn btn-danger delSubCatBtn' id="delSubCatButton" data-id="{{subCategory.id}}">X</button>
+                <a href="/subcategory/?subCategory_id={{subCategory.id}}&category_id={{category.id}}">{{subCategory.name}}</a>
             </div>
             <div class = "col-4 p-3 bdr">{{subCategory.spend}}</div>
             <div class = "col-4 p-3 bdr">{{subCategory.left}}</div>
@@ -26,6 +26,7 @@
     <div class='row justify-content-end'>    
         <a href= '/add/category' id='addCatBtn' class=" col-4 btn btn-success me-2 my-1">+Add Category+</a>
     </div>
+    <script src="/js/deleteSubcategory.js"></script>
 </main>
 
 {{!-- https://handlebarsjs.com/guide/builtin-helpers.html#with --}}

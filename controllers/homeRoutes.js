@@ -52,6 +52,8 @@ router.get('/subcategory', async (req, res) => {
   try {
     const subCatQuery = req.query.subCategory_id; 
 
+    catID = req.query.category_id;
+
     const subCatData = await Subcategory.findByPk(subCatQuery);
 
     const expData = await Expense.findAll({
@@ -63,6 +65,11 @@ router.get('/subcategory', async (req, res) => {
       ]
     })
 
+
+
+    const catData = await Category.findByPk(catID);
+
+    const cat = catData.get( { plain: true } );  
     const subCat = subCatData.get({ plain: true});
     const expenses = expData.map((data) => data.get({ plain:true }));
 
@@ -71,7 +78,8 @@ router.get('/subcategory', async (req, res) => {
 
     res.render('subCategory', {
       subCategory: subCat,
-      expenses: expenses
+      expenses: expenses,
+      category: cat
     });
   } catch (err) {
     res.status(400).json(err);
