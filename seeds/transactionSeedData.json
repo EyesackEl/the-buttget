@@ -1,822 +1,1027 @@
 [
   {
     "value": 12500,
-    "expense_id": 1
+    "expense_id": 1,
+    "user_id": 1
   },
   {
     "value": 9500,
-    "expense_id": 2
+    "expense_id": 2,
+    "user_id": 1
   },
   {
     "value": 15500,
-    "expense_id": 3
+    "expense_id": 3,
+    "user_id": 1
   },
   {
     "value": 3995,
-    "expense_id": 4
+    "expense_id": 4,
+    "user_id": 1
   },
   {
     "value": 6413,
-    "expense_id": 5
+    "expense_id": 5,
+    "user_id": 1
   },
   {
     "value": 3714,
-    "expense_id": 6
+    "expense_id": 6,
+    "user_id": 1
   },
   {
     "value": 4994,
-    "expense_id": 6
+    "expense_id": 6,
+    "user_id": 1
   },
   {
     "value": 39400,
-    "expense_id": 8
+    "expense_id": 8,
+    "user_id": 1
   },
   {
     "value": 13714,
-    "expense_id": 9
+    "expense_id": 9,
+    "user_id": 1
   },
   {
     "value": 15000,
-    "expense_id": 10
+    "expense_id": 10,
+    "user_id": 1
   },
   {
     "value": 27500,
-    "expense_id": 11
+    "expense_id": 11,
+    "user_id": 1
   },
   {
     "value": 8500,
-    "expense_id": 12
+    "expense_id": 12,
+    "user_id": 1
   },
   {
     "value": 2498,
-    "expense_id": 12
+    "expense_id": 12,
+    "user_id": 1
   },
   {
     "value": 1270,
-    "expense_id": 12
+    "expense_id": 12,
+    "user_id": 1
   },
   {
     "value": 1294,
-    "expense_id": 13
+    "expense_id": 13,
+    "user_id": 1
   },
   {
     "value": 1294,
-    "expense_id": 13
+    "expense_id": 13,
+    "user_id": 1
   },
   {
     "value": 1294,
-    "expense_id": 13
+    "expense_id": 13,
+    "user_id": 1
   },
   {
     "value": 1294,
-    "expense_id": 13
+    "expense_id": 13,
+    "user_id": 1
   },  
   {
     "value": 798,
-    "expense_id": 14
+    "expense_id": 14,
+    "user_id": 1
   },
   {
     "value": 2394,
-    "expense_id": 15
+    "expense_id": 15,
+    "user_id": 1
   },
   {
     "value": 5348,
-    "expense_id": 15
+    "expense_id": 15,
+    "user_id": 1
   },
   {
     "value": 8949,
-    "expense_id": 17
+    "expense_id": 17,
+    "user_id": 1
   },
   {
     "value": 495,
-    "expense_id": 18
+    "expense_id": 18,
+    "user_id": 1
   },
   {
     "value": 2495,
-    "expense_id": 19
+    "expense_id": 19,
+    "user_id": 1
   },
   {
     "value": 3718,
-    "expense_id": 20
+    "expense_id": 20,
+    "user_id": 1
   },
   {
     "value": 3396,
-    "expense_id": 21
+    "expense_id": 21,
+    "user_id": 1
   },
   {
     "value": 1794,
-    "expense_id": 21
+    "expense_id": 21,
+    "user_id": 1
   },
   {
     "value": 3995,
-    "expense_id": 22
+    "expense_id": 22,
+    "user_id": 1
   },
   {
     "value": 1500,
-    "expense_id": 23
+    "expense_id": 23,
+    "user_id": 1
   },
   {
     "value": 2499,
-    "expense_id": 24
+    "expense_id": 24,
+    "user_id": 1
   },
   {
     "value": 1799,
-    "expense_id": 25
+    "expense_id": 25,
+    "user_id": 1
   },
   {
     "value": 999,
-    "expense_id": 26
+    "expense_id": 26,
+    "user_id": 1
   },
   {
     "value": 1499,
-    "expense_id": 27
+    "expense_id": 27,
+    "user_id": 1
   },
   {
     "value": 1399,
-    "expense_id": 28
+    "expense_id": 28,
+    "user_id": 1
   },
   {
     "value": 1098,
-    "expense_id": 29
+    "expense_id": 29,
+    "user_id": 1
   },
   {
     "value": 1799,
-    "expense_id": 30
+    "expense_id": 30,
+    "user_id": 1
   },
   {
     "value": 799,
-    "expense_id": 31
+    "expense_id": 31,
+    "user_id": 1
   },
   {
     "value": 1395,
-    "expense_id": 32
+    "expense_id": 32,
+    "user_id": 1
   },
   {
     "value": 995,
-    "expense_id": 33
+    "expense_id": 33,
+    "user_id": 1
   },
   {
     "value": 176500,
-    "expense_id": 34
+    "expense_id": 34,
+    "user_id": 1
   },
   {
     "value": 4942,
-    "expense_id": 35
+    "expense_id": 35,
+    "user_id": 1
   },
   {
     "value": 12500,
-    "expense_id": 36
+    "expense_id": 36,
+    "user_id": 2
   },
   {
     "value": 9500,
-    "expense_id": 37
+    "expense_id": 37,
+    "user_id": 2
   },
   {
     "value": 15500,
-    "expense_id": 38
+    "expense_id": 38,
+    "user_id": 2
   },
   {
     "value": 3995,
-    "expense_id": 39
+    "expense_id": 39,
+    "user_id": 2
   },
   {
     "value": 6413,
-    "expense_id": 40
+    "expense_id": 40,
+    "user_id": 2
   },
   {
     "value": 3714,
-    "expense_id": 41
+    "expense_id": 41,
+    "user_id": 2
   },
   {
     "value": 4994,
-    "expense_id": 41
+    "expense_id": 41,
+    "user_id": 2
   },
   {
     "value": 39400,
-    "expense_id": 43
+    "expense_id": 43,
+    "user_id": 2
   },
   {
     "value": 13714,
-    "expense_id": 44
+    "expense_id": 44,
+    "user_id": 2
   },
   {
     "value": 15000,
-    "expense_id": 45
+    "expense_id": 45,
+    "user_id": 2
   },
   {
     "value": 27500,
-    "expense_id": 46
+    "expense_id": 46,
+    "user_id": 2
   },
   {
     "value": 8500,
-    "expense_id": 47
+    "expense_id": 47,
+    "user_id": 2
   },
   {
     "value": 2498,
-    "expense_id": 47
+    "expense_id": 47,
+    "user_id": 2
   },
   {
     "value": 1270,
-    "expense_id": 47
+    "expense_id": 47,
+    "user_id": 2
   },
   {
     "value": 1294,
-    "expense_id": 48
+    "expense_id": 48,
+    "user_id": 2
   },
   {
     "value": 1294,
-    "expense_id": 48
+    "expense_id": 48,
+    "user_id": 2
   },
   {
     "value": 1294,
-    "expense_id": 48
+    "expense_id": 48,
+    "user_id": 2
   },
   {
     "value": 1294,
-    "expense_id": 48
+    "expense_id": 48,
+    "user_id": 2
   },  
   {
     "value": 798,
-    "expense_id": 49
+    "expense_id": 49,
+    "user_id": 2
   },
   {
     "value": 2394,
-    "expense_id": 50
+    "expense_id": 50,
+    "user_id": 2
   },
   {
     "value": 5348,
-    "expense_id": 50
+    "expense_id": 50,
+    "user_id": 2
   },
   {
     "value": 8949,
-    "expense_id": 52
+    "expense_id": 52,
+    "user_id": 2
   },
   {
     "value": 495,
-    "expense_id": 53
+    "expense_id": 53,
+    "user_id": 2
   },
   {
     "value": 2495,
-    "expense_id": 54
+    "expense_id": 54,
+    "user_id": 2
   },
   {
     "value": 3718,
-    "expense_id": 55
+    "expense_id": 55,
+    "user_id": 2
   },
   {
     "value": 3396,
-    "expense_id": 56
+    "expense_id": 56,
+    "user_id": 2
   },
   {
     "value": 1794,
-    "expense_id": 56
+    "expense_id": 56,
+    "user_id": 2
   },
   {
     "value": 3995,
-    "expense_id": 57
+    "expense_id": 57,
+    "user_id": 2
   },
   {
     "value": 1500,
-    "expense_id": 58
+    "expense_id": 58,
+    "user_id": 2
   },
   {
     "value": 2499,
-    "expense_id": 59
+    "expense_id": 59,
+    "user_id": 2
   },
   {
     "value": 1799,
-    "expense_id": 60
+    "expense_id": 60,
+    "user_id": 2
   },
   {
     "value": 999,
-    "expense_id": 61
+    "expense_id": 61,
+    "user_id": 2
   },
   {
     "value": 1499,
-    "expense_id": 62
+    "expense_id": 62,
+    "user_id": 2
   },
   {
     "value": 1399,
-    "expense_id": 63
+    "expense_id": 63,
+    "user_id": 2
   },
   {
     "value": 1098,
-    "expense_id": 64
+    "expense_id": 64,
+    "user_id": 2
   },
   {
     "value": 1799,
-    "expense_id": 65
+    "expense_id": 65,
+    "user_id": 2
   },
   {
     "value": 799,
-    "expense_id": 66
+    "expense_id": 66,
+    "user_id": 2
   },
   {
     "value": 1395,
-    "expense_id": 67
+    "expense_id": 67,
+    "user_id": 2
   },
   {
     "value": 995,
-    "expense_id": 68
+    "expense_id": 68,
+    "user_id": 2
   },
   {
     "value": 176500,
-    "expense_id": 69
+    "expense_id": 69,
+    "user_id": 2
   },
   {
     "value": 4942,
-    "expense_id": 70
+    "expense_id": 70,
+    "user_id": 2
   },
   {
     "value": 12500,
-    "expense_id": 71
+    "expense_id": 71,
+    "user_id": 3
   },
   {
     "value": 9500,
-    "expense_id": 72
+    "expense_id": 72,
+    "user_id": 3
   },
   {
     "value": 15500,
-    "expense_id": 73
+    "expense_id": 73,
+    "user_id": 3
   },
   {
     "value": 3995,
-    "expense_id": 74
+    "expense_id": 74,
+    "user_id": 3
   },
   {
     "value": 6413,
-    "expense_id": 75
+    "expense_id": 75,
+    "user_id": 3
   },
   {
     "value": 3714,
-    "expense_id": 76
+    "expense_id": 76,
+    "user_id": 3
   },
   {
     "value": 4994,
-    "expense_id": 76
+    "expense_id": 76,
+    "user_id": 3
   },
   {
     "value": 39400,
-    "expense_id": 78
+    "expense_id": 78,
+    "user_id": 3
   },
   {
     "value": 13714,
-    "expense_id": 79
+    "expense_id": 79,
+    "user_id": 3
   },
   {
     "value": 15000,
-    "expense_id": 80
+    "expense_id": 80,
+    "user_id": 3
   },
   {
     "value": 27500,
-    "expense_id": 81
+    "expense_id": 81,
+    "user_id": 3
   },
   {
     "value": 8500,
-    "expense_id": 82
+    "expense_id": 82,
+    "user_id": 3
   },
   {
     "value": 2498,
-    "expense_id": 82
+    "expense_id": 82,
+    "user_id": 3
   },
   {
     "value": 1270,
-    "expense_id": 82
+    "expense_id": 82,
+    "user_id": 3
   },
   {
     "value": 1294,
-    "expense_id": 83
+    "expense_id": 83,
+    "user_id": 3
   },
   {
     "value": 1294,
-    "expense_id": 83
+    "expense_id": 83,
+    "user_id": 3
   },
   {
     "value": 1294,
-    "expense_id": 83
+    "expense_id": 83,
+    "user_id": 3
   },
   {
     "value": 1294,
-    "expense_id": 83
+    "expense_id": 83,
+    "user_id": 3
   },  
   {
     "value": 798,
-    "expense_id": 84
+    "expense_id": 84,
+    "user_id": 3
   },
   {
     "value": 2394,
-    "expense_id": 85
+    "expense_id": 85,
+    "user_id": 3
   },
   {
     "value": 5348,
-    "expense_id": 85
+    "expense_id": 85,
+    "user_id": 3
   },
   {
     "value": 8949,
-    "expense_id": 87
+    "expense_id": 87,
+    "user_id": 3
   },
   {
     "value": 495,
-    "expense_id": 88
+    "expense_id": 88,
+    "user_id": 3
   },
   {
     "value": 2495,
-    "expense_id": 89
+    "expense_id": 89,
+    "user_id": 3
   },
   {
     "value": 3718,
-    "expense_id": 90
+    "expense_id": 90,
+    "user_id": 3
   },
   {
     "value": 3396,
-    "expense_id": 91
+    "expense_id": 91,
+    "user_id": 3
   },
   {
     "value": 1794,
-    "expense_id": 91
+    "expense_id": 91,
+    "user_id": 3
   },
   {
     "value": 3995,
-    "expense_id": 92
+    "expense_id": 92,
+    "user_id": 3
   },
   {
     "value": 1500,
-    "expense_id": 93
+    "expense_id": 93,
+    "user_id": 3
   },
   {
     "value": 2499,
-    "expense_id": 94
+    "expense_id": 94,
+    "user_id": 3
   },
   {
     "value": 1799,
-    "expense_id": 95
+    "expense_id": 95,
+    "user_id": 3
   },
   {
     "value": 999,
-    "expense_id": 96
+    "expense_id": 96,
+    "user_id": 3
   },
   {
     "value": 1499,
-    "expense_id": 97
+    "expense_id": 97,
+    "user_id": 3
   },
   {
     "value": 1399,
-    "expense_id": 98
+    "expense_id": 98,
+    "user_id": 3
   },
   {
     "value": 1098,
-    "expense_id": 99
+    "expense_id": 99,
+    "user_id": 3
   },
   {
     "value": 1799,
-    "expense_id": 100
+    "expense_id": 100,
+    "user_id": 3
   },
   {
     "value": 799,
-    "expense_id": 101
+    "expense_id": 101,
+    "user_id": 3
   },
   {
     "value": 1395,
-    "expense_id": 102
+    "expense_id": 102,
+    "user_id": 3
   },
   {
     "value": 995,
-    "expense_id": 103
+    "expense_id": 103,
+    "user_id": 3
   },
   {
     "value": 176500,
-    "expense_id": 104
+    "expense_id": 104,
+    "user_id": 3
   },
   {
     "value": 4942,
-    "expense_id": 105
+    "expense_id": 105,
+    "user_id": 3
   },
   {
     "value": 12500,
-    "expense_id": 106
+    "expense_id": 106,
+    "user_id": 4
   },
   {
     "value": 9500,
-    "expense_id": 107
+    "expense_id": 107,
+    "user_id": 4
   },
   {
     "value": 15500,
-    "expense_id": 108
+    "expense_id": 108,
+    "user_id": 4
   },
   {
     "value": 3995,
-    "expense_id": 109
+    "expense_id": 109,
+    "user_id": 4
   },
   {
     "value": 6413,
-    "expense_id": 110
+    "expense_id": 110,
+    "user_id": 4
   },
   {
     "value": 3714,
-    "expense_id": 111
+    "expense_id": 111,
+    "user_id": 4
   },
   {
     "value": 4994,
-    "expense_id": 111
+    "expense_id": 111,
+    "user_id": 4
   },
   {
     "value": 39400,
-    "expense_id": 113
+    "expense_id": 113,
+    "user_id": 4
   },
   {
     "value": 13714,
-    "expense_id": 114
+    "expense_id": 114,
+    "user_id": 4
   },
   {
     "value": 15000,
-    "expense_id": 115
+    "expense_id": 115,
+    "user_id": 4
   },
   {
     "value": 27500,
-    "expense_id": 116
+    "expense_id": 116,
+    "user_id": 4
   },
   {
     "value": 8500,
-    "expense_id": 117
+    "expense_id": 117,
+    "user_id": 4
   },
   {
     "value": 2498,
-    "expense_id": 117
+    "expense_id": 117,
+    "user_id": 4
   },
   {
     "value": 1270,
-    "expense_id": 117
+    "expense_id": 117,
+    "user_id": 4
   },
   {
     "value": 1294,
-    "expense_id": 118
+    "expense_id": 118,
+    "user_id": 4
   },
   {
     "value": 1294,
-    "expense_id": 118
+    "expense_id": 118,
+    "user_id": 4
   },
   {
     "value": 1294,
-    "expense_id": 118
+    "expense_id": 118,
+    "user_id": 4
   },
   {
     "value": 1294,
-    "expense_id": 118
+    "expense_id": 118,
+    "user_id": 4
   },  
   {
     "value": 798,
-    "expense_id": 119
+    "expense_id": 119,
+    "user_id": 4
   },
   {
     "value": 2394,
-    "expense_id": 120
+    "expense_id": 120,
+    "user_id": 4
   },
   {
     "value": 5348,
-    "expense_id": 120
+    "expense_id": 120,
+    "user_id": 4
   },
   {
     "value": 8949,
-    "expense_id": 122
+    "expense_id": 122,
+    "user_id": 4
   },
   {
     "value": 495,
-    "expense_id": 123
+    "expense_id": 123,
+    "user_id": 4
   },
   {
     "value": 2495,
-    "expense_id": 124
+    "expense_id": 124,
+    "user_id": 4
   },
   {
     "value": 3718,
-    "expense_id": 125
+    "expense_id": 125,
+    "user_id": 4
   },
   {
     "value": 3396,
-    "expense_id": 126
+    "expense_id": 126,
+    "user_id": 4
   },
   {
     "value": 1794,
-    "expense_id": 126
+    "expense_id": 126,
+    "user_id": 4
   },
   {
     "value": 3995,
-    "expense_id": 127
+    "expense_id": 127,
+    "user_id": 4
   },
   {
     "value": 1500,
-    "expense_id": 128
+    "expense_id": 128,
+    "user_id": 4
   },
   {
     "value": 2499,
-    "expense_id": 129
+    "expense_id": 129,
+    "user_id": 4
   },
   {
     "value": 1799,
-    "expense_id": 130
+    "expense_id": 130,
+    "user_id": 4
   },
   {
     "value": 999,
-    "expense_id": 131
+    "expense_id": 131,
+    "user_id": 4
   },
   {
     "value": 1499,
-    "expense_id": 132
+    "expense_id": 132,
+    "user_id": 4
   },
   {
     "value": 1399,
-    "expense_id": 133
+    "expense_id": 133,
+    "user_id": 4
   },
   {
     "value": 1098,
-    "expense_id": 134
+    "expense_id": 134,
+    "user_id": 4
   },
   {
     "value": 1799,
-    "expense_id": 135
+    "expense_id": 135,
+    "user_id": 4
   },
   {
     "value": 799,
-    "expense_id": 136
+    "expense_id": 136,
+    "user_id": 4
   },
   {
     "value": 1395,
-    "expense_id": 137
+    "expense_id": 137,
+    "user_id": 4
   },
   {
     "value": 995,
-    "expense_id": 138
+    "expense_id": 138,
+    "user_id": 4
   },
   {
     "value": 176500,
-    "expense_id": 139
+    "expense_id": 139,
+    "user_id": 4
   },
   {
     "value": 4942,
-    "expense_id": 140
+    "expense_id": 140,
+    "user_id": 4
   },
   {
     "value": 12500,
-    "expense_id": 141
+    "expense_id": 141,
+    "user_id": 5
   },
   {
     "value": 9500,
-    "expense_id": 142
+    "expense_id": 142,
+    "user_id": 5
   },
   {
     "value": 15500,
-    "expense_id": 143
+    "expense_id": 143,
+    "user_id": 5
   },
   {
     "value": 3995,
-    "expense_id": 144
+    "expense_id": 144,
+    "user_id": 5
   },
   {
     "value": 6413,
-    "expense_id": 145
+    "expense_id": 145,
+    "user_id": 5
   },
   {
     "value": 3714,
-    "expense_id": 146
+    "expense_id": 146,
+    "user_id": 5
   },
   {
     "value": 4994,
-    "expense_id": 146
+    "expense_id": 146,
+    "user_id": 5
   },
   {
     "value": 39400,
-    "expense_id": 148
+    "expense_id": 148,
+    "user_id": 5
   },
   {
     "value": 13714,
-    "expense_id": 149
+    "expense_id": 149,
+    "user_id": 5
   },
   {
     "value": 15000,
-    "expense_id": 150
+    "expense_id": 150,
+    "user_id": 5
   },
   {
     "value": 27500,
-    "expense_id": 151
+    "expense_id": 151,
+    "user_id": 5
   },
   {
     "value": 8500,
-    "expense_id": 152
+    "expense_id": 152,
+    "user_id": 5
   },
   {
     "value": 2498,
-    "expense_id": 152
+    "expense_id": 152,
+    "user_id": 5
   },
   {
     "value": 1270,
-    "expense_id": 152
+    "expense_id": 152,
+    "user_id": 5
   },
   {
     "value": 1294,
-    "expense_id": 153
+    "expense_id": 153,
+    "user_id": 5
   },
   {
     "value": 1294,
-    "expense_id": 153
+    "expense_id": 153,
+    "user_id": 5
   },
   {
     "value": 1294,
-    "expense_id": 153
+    "expense_id": 153,
+    "user_id": 5
   },
   {
     "value": 1294,
-    "expense_id": 153
+    "expense_id": 153,
+    "user_id": 5
   },  
   {
     "value": 798,
-    "expense_id": 154
+    "expense_id": 154,
+    "user_id": 5
   },
   {
     "value": 2394,
-    "expense_id": 155
+    "expense_id": 155,
+    "user_id": 5
   },
   {
     "value": 5348,
-    "expense_id": 155
+    "expense_id": 155,
+    "user_id": 5
   },
   {
     "value": 8949,
-    "expense_id": 157
+    "expense_id": 157,
+    "user_id": 5
   },
   {
     "value": 495,
-    "expense_id": 158
+    "expense_id": 158,
+    "user_id": 5
   },
   {
     "value": 2495,
-    "expense_id": 159
+    "expense_id": 159,
+    "user_id": 5
   },
   {
     "value": 3718,
-    "expense_id": 160
+    "expense_id": 160,
+    "user_id": 5
   },
   {
     "value": 3396,
-    "expense_id": 161
+    "expense_id": 161,
+    "user_id": 5
   },
   {
     "value": 1794,
-    "expense_id": 161
+    "expense_id": 161,
+    "user_id": 5
   },
   {
     "value": 3995,
-    "expense_id": 162
+    "expense_id": 162,
+    "user_id": 5
   },
   {
     "value": 1500,
-    "expense_id": 163
+    "expense_id": 163,
+    "user_id": 5
   },
   {
     "value": 2499,
-    "expense_id": 164
+    "expense_id": 164,
+    "user_id": 5
   },
   {
     "value": 1799,
-    "expense_id": 165
+    "expense_id": 165,
+    "user_id": 5
   },
   {
     "value": 999,
-    "expense_id": 166
+    "expense_id": 166,
+    "user_id": 5
   },
   {
     "value": 1499,
-    "expense_id": 167
+    "expense_id": 167,
+    "user_id": 5
   },
   {
     "value": 1399,
-    "expense_id": 168
+    "expense_id": 168,
+    "user_id": 5
   },
   {
     "value": 1098,
-    "expense_id": 169
+    "expense_id": 169,
+    "user_id": 5
   },
   {
     "value": 1799,
-    "expense_id": 170
+    "expense_id": 170,
+    "user_id": 5
   },
   {
     "value": 799,
-    "expense_id": 171
+    "expense_id": 171,
+    "user_id": 5
   },
   {
     "value": 1395,
-    "expense_id": 172
+    "expense_id": 172,
+    "user_id": 5
   },
   {
     "value": 995,
-    "expense_id": 173
+    "expense_id": 173,
+    "user_id": 5
   },
   {
     "value": 176500,
-    "expense_id": 174
+    "expense_id": 174,
+    "user_id": 5
   },
   {
     "value": 4942,
-    "expense_id": 175
+    "expense_id": 175,
+    "user_id": 5
   }
 ]
