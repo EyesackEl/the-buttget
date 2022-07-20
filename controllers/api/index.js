@@ -1,10 +1,12 @@
 const router = require('express').Router();
 const userRoutes = require('./userRoutes');
-const updateRoutes = require('./updateRoutes');
+const categoryRoutes = require('./categoryRoutes');
+const subcategoryRoutes = require('./subcategoryRoutes')
 
 router.use('/login', userRoutes);
 router.use('/signup', userRoutes);
-router.use('/add', updateRoutes)
+router.use('/addCategory', categoryRoutes)
+router.use('/addSubcategory', subcategoryRoutes)
 
 
 module.exports = router;
