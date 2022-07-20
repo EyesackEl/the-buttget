@@ -39,10 +39,6 @@ User.init(
       type: DataTypes.INTEGER,
       allowNull: true,
     },
-    sum: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-    },
   },
   {
     hooks: {
