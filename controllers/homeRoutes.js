@@ -42,7 +42,9 @@ router.get('/',  auth, async (req, res) => {
 
 router.get('/add/category', async (req, res) => {
   try {
-    res.render('add-category')
+    res.render('add-category', {
+      logged_in: req.session.logged_in
+    })
   } catch (err) {
     res.status(400).json(err);
   }
@@ -77,9 +79,10 @@ router.get('/subcategory', async (req, res) => {
     console.log(`\n${JSON.stringify(expenses)}\n`)
 
     res.render('subCategory', {
+      logged_in: req.session.logged_in,
       subCategory: subCat,
       expenses: expenses,
-      category: cat
+      category: cat,
     });
   } catch (err) {
     res.status(400).json(err);
@@ -95,7 +98,8 @@ router.get('/add/subcategory', async (req, res) => {
     const cat = catData.get({ plain: true })
 
     res.render('add-subCat', {
-      category: cat
+      logged_in: req.session.logged_in,
+      category: cat,
     })
   } catch (err) {
     res.status(400).json(err);
@@ -111,7 +115,8 @@ router.get('/add/expense', async (req, res) => {
     const subCat = subCatData.get({ plain: true })
 
     res.render('add-expense', {
-      subcategory: subCat
+      logged_in: req.session.logged_in,
+      subcategory: subCat,
     })
   } catch (err) {
     res.status(400).json(err);
@@ -127,6 +132,7 @@ router.get('/add/transaction', async (req, res) => {
     const exp = expData.get({ plain: true })
 
     res.render('add-transaction', {
+      logged_in: req.session.logged_in,
       expense: exp
     })
   } catch (err) {

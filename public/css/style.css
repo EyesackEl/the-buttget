@@ -1,9 +1,40 @@
+:root {
+    --primary: #2f363c;
+    --secondary: #49859f;
+    --tertiary: #2aeba5;;
+}
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    background-color: var(--primary)
+}
+
 .bdr {
-    border: 1px dotted red;
+    border: 1px solid black;
 }
 
 .relative {
     position: relative;
+}
+
+#budgetHead {
+    color: var(--secondary)
+}
+
+.catName {
+    color: var(--secondary)
+}
+
+.home-col {
+    background-color: var(--secondary);
+}
+
+.subCatLink {
+    text-decoration: none;
+    color: inherit;
 }
 
 .delCatBtn {
@@ -18,6 +49,14 @@
     top: 10px;
 }
 
+.subCatTxt {
+    color: var(--tertiary)
+}
+
+.expRow {
+    background-color: var(--tertiary)
+}
+
 .delExpBtn {
     position: absolute;
     right: 0;
@@ -28,4 +67,20 @@
     position: absolute;
     left: 2px;
     top: 10px;
+}
+
+#homeAddTxt {
+    color: var(--secondary)
+}
+
+#subAddTxt {
+    color: var(--tertiary)
+}
+
+#logHeadTxt {
+    color: var(--tertiary)
+}
+
+#loginOr {
+    color: var(--secondary)
 }

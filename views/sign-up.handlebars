@@ -1,5 +1,5 @@
 <main class = "container container-fluid mt-5">
-    <h2 class="text-center">Lets sign up!</h2>
+    <h2 id='logHeadTxt' class="text-center">Lets sign up!</h2>
 
     <form id='signup-form' class = "row g-1">
         <div class="form-group col-sm-6">
@@ -9,16 +9,16 @@
             <input id='email-input' type="text" class="form-control" placeholder="Email" aria-label="Email">
         </div>
         <div class="form-group col-sm-6">
-            <input id='pword-input1' type="text" class="form-control" placeholder="Password" aria-label="Password">
+            <input id='pword-input1' type="password" class="form-control" placeholder="Password" aria-label="Password">
         </div>
         <div class="form-group col-sm-6">
-            <input id='pword-input2' type="text" class="form-control" placeholder="Re-Enter Password" aria-label="Re-Enter Password">
+            <input id='pword-input2' type="password" class="form-control" placeholder="Re-Enter Password" aria-label="Re-Enter Password">
         </div>
     </form>
     
     <div class="text-center">
         <button id='signupBtn'type="button" class="btn btn-success mt-2">Sign Up!</button>
-        <h3>OR</h3>
+        <h3 id="loginOr">OR</h3>
         <a href="/login"><div type="button" class="btn btn-warning mb-2">Sign In!</div></a>
     </div>
 

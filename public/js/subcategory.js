@@ -1,13 +1,9 @@
 const newSubCatForm = async (event) => {
     event.preventDefault();
 
-    console.log(1)
-
     const name = document.querySelector('#newSub').value.trim();
     const params = new URLSearchParams(window.location.search);
     const catID = params.get('category_id');
-
-    console.log(name)
 
     if (name && catID) {
         const response = await fetch(`/api/subcategory/add`, {
