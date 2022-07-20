@@ -28,7 +28,8 @@ const newSubCatForm = async (event) => {
 
 
 const delButtonHandler = async (event) => {
-    const id = event.target.getAttribute('data-id');
+    const params = new URLSearchParams(window.location.search);
+    const catID = params.get('id');
 
     const response = await fetch(`/api/subcategory/delete`, {
     method: 'DELETE',
