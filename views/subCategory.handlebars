@@ -1,5 +1,5 @@
 <main class = "container container-fluid mt-5">
-        <div class="container-xxl m-0 bdr">
+        <div class="container-sm m-0 bdr">
             <div class="bdr text-center">
                 <h2>{{subCategory.name}}</h2>
             </div>
@@ -10,8 +10,8 @@
         </div>
         {{#each transactions as |transaction|}}
         <div class = "row justify-content-center g-0 my-0 bdr">
-                <div class = "col-7 p-3 bdr text-center">{{transaction.value}}</div>
-                <div class="col-2 p-3 bdr text-center">{{format_date transaction.createdAt}}</div>
+                <div class = "col-7 p-3 bdr text-center">{{format_money transaction.value}}</div>
+                <div class="col-3 p-3 bdr text-center">{{format_date transaction.createdAt}}</div>
         </div>
         {{/each}}
     {{/each}}
