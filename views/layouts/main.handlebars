@@ -16,7 +16,7 @@
             <div class = "container-fluid">
                 <a class = "navbar-brand" href = '/'>The ButtGet</a>
                 {{#if logged_in}}
-                <a><span class = "navbar-text">Log Out</span></a>
+                <button id='logoutBtn'><span class = "navbar-text">Log Out</span></button>
                 {{else}}
                 <a href="/login"><span class = "navbar-text">Log In</span></a>
                 {{/if}}
