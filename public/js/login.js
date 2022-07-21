@@ -3,6 +3,8 @@ const loginFormHandler = async () => {
 
     const email = document.querySelector('#emailInput').value.trim();
     const password = document.querySelector('#pwordInput').value.trim();
+    
+    console.log(email, password)
 
     const bodyJson = JSON.stringify({ email, password })
 
