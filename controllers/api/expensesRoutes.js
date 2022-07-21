@@ -5,15 +5,36 @@ const { Expense } = require('../../models');
 router.post('/add', withAuth, async (req, res) => {
     try{
         
-        console.log(expenseQuery)
-        Expense.create({
+        console.log(1)
+        const create = Expense.create({
             name: req.body.name,
             user_id: req.session.user_id,
             category_id: req.body.catID,
             subcategory_id: req.body.subcatID
         })
+        res.status(200).json(create);
     } catch (err) {
-        res.status(400).json(err)
+        res.status(406).json(err)
+    }
+});
+
+router.delete('/:id', withAuth, async (req, res) => {
+    try {
+      const expenseData = await Expense.destroy({
+        where: {
+          id: req.params.id,
+          user_id: req.session.user_id,
+        },
+      });
+  
+      if (!expenseData) {
+        res.status(404).json({ message: 'No project found with this id!' });
+        return;
+      }
+  
+      res.status(200).json(expenseData)
+    } catch (err) {
+      res.status(500).json(err);
     }
 });
 

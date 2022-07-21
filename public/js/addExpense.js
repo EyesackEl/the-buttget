@@ -11,7 +11,7 @@ const newExpenseForm = async (event) => {
     console.log(name, catID, subcatID)
 
     if (name && catID && subcatID) {
-        const response = await fetch(`/api/expense/add`, {
+        const response = await fetch('/api/expense/add', {
           method: 'POST',
           body: JSON.stringify({ name, catID, subcatID }),
           headers: {
@@ -20,7 +20,7 @@ const newExpenseForm = async (event) => {
         });
     
         if (response.ok) {
-          document.location.replace('/');
+          document.location.replace(`/subcategory/?subCategory_id=${subcatID}&category_id=${catID}`);
         } else {
           alert('Failed to create expense');
         }

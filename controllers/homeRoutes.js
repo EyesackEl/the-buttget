@@ -7,10 +7,10 @@ const { Category, Transaction, Expense, User, Subcategory, } = require('../model
 
 // home page to render all of user based budget table, must check if logged in
 //! add an auth here
-router.get('/',  auth, async (req, res) => {
+router.get('/',  async (req, res) => {
     try {
       const userID = req.session.user_id
-      const userData = await User.findByPk(userID, {
+      const userData = await User.findByPk(2, {
         //* where: {user_id: req.session.user_id},
         attributes: [
           'category_id',
