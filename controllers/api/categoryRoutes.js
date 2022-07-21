@@ -1,45 +1,42 @@
 // this route is for updating and adding categories per user
 const router = require('express').Router();
 const withAuth = require('../../utils/auth');
-const { Category, Subcategory } = require('../../models');
+const { Category } = require('../../models');
 
 
-// add new category per user
-router.put('/add', withAuth, async (req, res) => {
-    try{
-        const postCategory = await Category.create({
-            ...req.body,
+router.post('/add', withAuth, async (req, res) => {
+    try{    
+        console.log(1)
+        const create = Category.create({
+            name: req.body.name,
             user_id: req.session.user_id
         })
+        res.status(200).json(create);
     } catch (err) {
-        res.status(400).json(err)
+        res.status(406).json(err)
     }
 });
 
-
-// add new subcategory per user as well, attached to category
-router.put('/sub', withAuth, async (req, res) => {
-    try{
-        Category.create({
-            name: req.body.name,
-            user_id: req.body.userid,
-        })
+router.delete('/:id', withAuth, async (req, res) => {
+    try {
+      const catData = await Category.destroy({
+        where: {
+          id: req.params.id,
+          user_id: req.session.user_id,
+        },
+      });
+  
+      if (!catData) {
+        res.status(404).json({ message: 'No project found with this id!' });
+        return;
+      }
+  
+      res.status(200).json(catData)
     } catch (err) {
-        res.status(400).json(err)
+      res.status(500).json(err);
     }
 });
 
-
-// router.put('/sub', withAuth, async (req, res) => {
-//     try{
-//         Subcategory.create({
-//             name: req.body.name,
-//             user_id: req.body.userid,
-//         })
-//     } catch (err) {
-//         res.status(400).json(err)
-//     }
-// });
 
 
 
