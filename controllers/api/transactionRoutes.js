@@ -20,5 +20,25 @@ router.post('/add', withAuth, async (req, res) => {
 });
 
 
+router.delete('/:id', withAuth, async (req, res) => {
+    try {
+      const projectData = await Transaction.destroy({
+        where: {
+          id: req.params.id,
+          user_id: req.session.user_id,
+        },
+      });
+  
+      if (!projectData) {
+        res.status(404).json({ message: 'No project found with this id!' });
+        return;
+      }
+  
+      res.status(200)
+    } catch (err) {
+      res.status(500).json(err);
+    }
+});
+
 
 module.exports = router;
