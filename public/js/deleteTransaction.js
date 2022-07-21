@@ -14,7 +14,7 @@ const delTransaction = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace(`/subcategory/?subCategory_id=${subcatID}&category_id=${catID}`);
+      location.reload();
     } else {
       alert('Failed to delete transaction');
     }    
