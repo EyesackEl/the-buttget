@@ -1,27 +1,69 @@
-const delTransaction = async (event) => {
+const delAction = async (event) => {
     console.log(1);
 
     const id = event.target.dataset.id
 
     console.log(id)
-
-    const params = new URLSearchParams(window.location.search);
-    const catID = params.get('category_id');
-    const subcatID = params.get('subcategory_id');
-
-    const response = await fetch(`/api/transaction/${id}`, {
-      method: 'DELETE'
-    });
-
-    if (response.ok) {
-      location.reload();
-    } else {
-      alert('Failed to delete transaction');
-    }    
+    if (event.target.classList.contains('delTranBtn')){
+        const response = await fetch(`/api/transaction/${id}`, {
+            method: 'DELETE'
+          });
+      
+        if (response.ok) {
+            location.reload();
+        } else {
+            alert('Failed to delete transaction');
+        } 
+    } else if (event.target.classList.contains('delExpBtn')){
+        const response = await fetch(`/api/expense/${id}`, {
+            method: 'DELETE'
+        });
+      
+        if (response.ok) {
+            location.reload();
+        } else {
+            alert('Failed to delete transaction');
+        } 
+    }
+   
 };
 
-const delTranBtn = document.querySelectorAll('.delTranBtn');
+const delBtn = document.querySelectorAll('.delBtn');
 
-delTranBtn.forEach(delBtn => {
-  delBtn.addEventListener('click', delTransaction)
+delBtn.forEach(delBtn => {
+  delBtn.addEventListener('click', delAction)
 });
+
+
+
+
+
+
+
+
+
+
+
+// const delTransaction = async (event) => {
+//     console.log(1);
+
+//     const id = event.target.dataset.id
+
+//     console.log(id)
+
+//     const response = await fetch(`/api/transaction/${id}`, {
+//       method: 'DELETE'
+//     });
+
+//     if (response.ok) {
+//       location.reload();
+//     } else {
+//       alert('Failed to delete transaction');
+//     }    
+// };
+
+// const delTranBtn = document.querySelectorAll('.delTranBtn');
+
+// delTranBtn.forEach(delBtn => {
+//   delBtn.addEventListener('click', delTransaction)
+// });
