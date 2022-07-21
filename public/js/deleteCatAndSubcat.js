@@ -15,7 +15,7 @@ const delAction = async (event) => {
             alert('Failed to delete category');
         } 
     } else if (event.target.classList.contains('delSubCatBtn')){
-        const response = await fetch(`/api/subcategory/${id}`, {
+        const response = await fetch(`/api/category/sub/${id}`, {
             method: 'DELETE'
         });
       
