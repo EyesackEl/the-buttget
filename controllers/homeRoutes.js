@@ -12,6 +12,11 @@ router.get('/',  auth, async (req, res) => {
       const userID = req.session.user_id
       const userData = await User.findByPk(userID, {
         //* where: {user_id: req.session.user_id},
+        attributes: [
+          'category_id',
+          [sequelize.fn('sum', sequelize.col('value')),'sum'],
+        ],
+        group: ['category_id'],
         attributes: {exclude: ['password']}
       });
 
