@@ -11,6 +11,7 @@ const delSubCat = async (event) => {
 
     if (response.ok) {
       document.location.replace('/');
+      console.log('okay')
     } else {
       alert('Failed to delete Subcategory');
     }    

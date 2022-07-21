@@ -9,7 +9,7 @@
             <a href='/api/expense/delete/?id={{expense.id}}'class='btn btn-danger delExpBtn'>X</a>
         <div class = "row text-center justify-content-center bdr">
             <h3 class = "subCatTxt col-12m-0 py-2">{{expense.name}}</h3>
-            <a id='addTranBtn' class=" col-5 btn btn-success" href="/add/transaction?expense_id={{expense.id}}">+Add a Transaction+</a>
+            <a id='addTranBtn' class=" col-5 btn btn-success" href="/add/transaction?expense_id={{expense.id}}&subcategory_id={{expense.subcategory_id}}&category_id={{expense.category_id}}">+Add a Transaction+</a>
         </div>
         </div>
         {{#each transactions as |transaction|}}
