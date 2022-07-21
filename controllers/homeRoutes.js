@@ -25,6 +25,7 @@ router.get('/',  auth, async (req, res) => {
       });
 
       const catSumsData = await Transaction.findAll({   //Added to get sums
+        where: { user_id: userID},
         attributes: [
           'category_id',
           [sequelize.fn('sum', sequelize.col('value')),'sum'],
@@ -72,6 +73,7 @@ router.get('/subcategory', async (req, res) => {
     const subCatData = await Subcategory.findByPk(subCatQuery);
 
     const subcatSumsData = await Transaction.findAll({    //Added to get sums
+      where: { user_id: userID},
       attributes: [
         'subcategory_id',
         [sequelize.fn('sum', sequelize.col('value')),'sum'],
@@ -89,6 +91,7 @@ router.get('/subcategory', async (req, res) => {
     })
 
     const expSumsData = await Transaction.findAll({         //Added to get sums
+      where: { user_id: userID},
       attributes: [
         'expense_id',
         [sequelize.fn('sum', sequelize.col('value')),'sum'],
