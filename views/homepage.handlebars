@@ -2,7 +2,7 @@
     <div id='budgetHead' class="container-xxl m-0">
         <h2> Welcome to your ButtGet {{user.name}}!</h2>
         <div class="row justify-content-end text-end">
-            <div class = "col-3 bdr" >Assigned: $<strong id="assignVal">175,000</strong></div>
+            {{!-- <div class = "col-3 bdr" >Assigned: $<strong id="assignVal">175,000</strong></div> --}}
             <div class = "col-3 bdr">Available: $<strong id="initVal">{{user.income}}</strong> <a href="/income" class = "col-3 bdr">(Update Income)</a></div>
         </div>
     </div>
