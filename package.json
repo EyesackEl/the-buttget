@@ -1,12 +1,16 @@
 {
   "name": "budget-app-project-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "the most advanced budget software on the market",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "node seeds/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EyesackEl/the-buttget.git"
   },
   "keywords": [],
   "author": "",
