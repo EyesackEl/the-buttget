@@ -23,20 +23,6 @@ const newSubCatForm = async (event) => {
 }
 
 
-// const delButtonHandler = async (event) => {
-//     const params = new URLSearchParams(window.location.search);
-//     const catID = params.get('id');
-
-//     const response = await fetch(`/api/subcategory/delete`, {
-//     method: 'DELETE',
-//     });
-
-//     if (response.ok) {
-//     document.location.replace('/');
-//     } else {
-//     alert('Failed to delete Subcategory');
-//     }    
-// };
 
 
 

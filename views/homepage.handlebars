@@ -3,7 +3,7 @@
         <h2> Welcome to your ButtGet {{user.name}}!</h2>
         <div class="row justify-content-end text-end">
             <div class = "col-3 bdr" >Assigned: $<strong id="assignVal">175,000</strong></div>
-            <div class = "col-3 bdr">Available: $<strong id="initVal">{{user.income}}</strong></div>
+            <div class = "col-3 bdr">Available: $<strong id="initVal">{{user.income}}</strong> <a href="/income" class = "col-3 bdr">(Update Income)</a></div>
         </div>
     </div>
     {{#each categories as |category|}}
@@ -20,7 +20,7 @@
                     {{subCategory.name}}
                 </a>
             </div>
-            <div class = "home-col col-4 p-3 bdr">{{subCategory.spend}}</div>
+            <div class = "home-col col-4 p-3 bdr">{{subCategory.sum}}</div>
             <div class = "home-col col-4 p-3 bdr">{{subCategory.left}}</div>
         </div>
         {{/each}}

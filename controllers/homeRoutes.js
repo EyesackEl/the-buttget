@@ -7,17 +7,19 @@ const { Category, Transaction, Expense, User, Subcategory, } = require('../model
 
 // home page to render all of user based budget table, must check if logged in
 //! add an auth here
-router.get('/',  async (req, res) => {
+
+// NORMAL GET ROUTES 
+// ------------------------------------------------------------------------------------
+router.get('/', auth, async (req, res) => {
     try {
       const userID = req.session.user_id
-      const userData = await User.findByPk(2, {
-        //* where: {user_id: req.session.user_id},
-        attributes: [
-          'category_id',
-          [sequelize.fn('sum', sequelize.col('value')),'sum'],
-        ],
-        group: ['category_id'],
-        attributes: {exclude: ['password']}
+      const userData = await User.findByPk(userID, {
+      //   attributes: [
+      //     'user_id',
+      //     [sequelize.fn('sum', sequelize.col('value')),'sum'],
+      //   ],
+      //   group: ['user_id'],
+      //   attributes: {exclude: ['password']}
       });
 
       const catData = await Category.findAll({
@@ -59,18 +61,9 @@ router.get('/',  async (req, res) => {
     };
 });
 
-router.get('/add/category', async (req, res) => {
-  try {
-    res.render('add-category', {
-      logged_in: req.session.logged_in
-    })
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
-
 router.get('/subcategory', async (req, res) => {
   try {
+    const userID = req.session.user_id
     const subCatQuery = req.query.subCategory_id; 
 
     catID = req.query.category_id;
@@ -123,6 +116,37 @@ router.get('/subcategory', async (req, res) => {
       expenses: expenses,
       category: cat,
     });
+  } catch (err) {
+    console.log(err);
+    res.status(400).json(err);
+  }
+});
+
+// GET ROUTES TO ADD AND UPDATE
+// -------------------------------------------------------------------------------------------------
+
+router.get('/income', async (req, res) => {
+  try {
+
+    const userID = req.session.user_id
+    const userData = await User.findByPk(userID);
+
+    const user = userData.get({ plain: true});
+
+    res.render('update-income', {
+      logged_in: req.session.logged_in,
+      user: user
+    })
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
+router.get('/add/category', async (req, res) => {
+  try {
+    res.render('add-category', {
+      logged_in: req.session.logged_in
+    })
   } catch (err) {
     res.status(400).json(err);
   }
@@ -179,6 +203,10 @@ router.get('/add/transaction', async (req, res) => {
   }
 });
 
+
+
+// GET ROUTES FOR LOGIN/OUT/SIGNUP PAGES
+// -------------------------------------------------------------------------
 // If the user is already logged in, redirect the request to home
 router.get('/login', (req, res) => {
 

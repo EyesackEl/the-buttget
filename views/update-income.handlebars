@@ -1,0 +1,13 @@
+<main class = "container container-fluid mt-5" id="smallMain">
+    <h2 id='subAddTxt' class="text-center">Update your Income</h2>
+    <h3 id='subAddTxt' class="text-center">Current Income: $<strong id="initVal">{{user.income}}</strong></h3>
+    <form class = "row justify-content-center">
+        <div class="form-group col-lg-6">
+            <input type="text" class="form-control" placeholder="Income Value (decimal form)" aria-label="Income Value" id="incomeValue" data-id="{{transaction.id}}">
+        </div>
+    </form>
+    <div class="text-center">
+        <button type="button" class="btn btn-success mt-2" id="updateIncomeBtn">Add!</button>
+    </div>
+    <script src="/js/updateIncome.js"></script>
+</main>
