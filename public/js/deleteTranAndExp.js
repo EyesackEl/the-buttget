@@ -18,7 +18,7 @@ const delAction = async (event) => {
         const response = await fetch(`/api/expense/${id}`, {
             method: 'DELETE'
         });
-      
+        location.reload();
         if (response.ok) {
             location.reload();
         } else {
