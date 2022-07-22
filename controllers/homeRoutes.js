@@ -115,9 +115,10 @@ router.get('/subcategory', async (req, res) => {
       subCategory: subCat,
       expenses: expenses,
       category: cat,
+      subcatSums: subcatSums,
+      expSums: expSums
     });
   } catch (err) {
-    console.log(err);
     res.status(400).json(err);
   }
 });
