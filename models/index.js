@@ -23,12 +23,12 @@ foreignKey: 'category_id',
 });
 
 Subcategory.hasMany(Expense, {
-    foreignKey: 'category_id',
+    foreignKey: 'subcategory_id',
     onDelete: 'CASCADE',
 });
 
 Expense.belongsTo(Subcategory, {
-foreignKey: 'category_id',
+    foreignKey: 'subcategory_id',
 });
 
 Expense.hasMany(Transaction, {
