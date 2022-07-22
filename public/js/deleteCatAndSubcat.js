@@ -18,9 +18,11 @@ const delAction = async (event) => {
         const response = await fetch(`/api/category/sub/${id}`, {
             method: 'DELETE'
         });
-      
+        location.reload();
+        document.location.replace(`/`);
         if (response.ok) {
             location.reload();
+            document.location.replace(`/`);
         } else {
             alert('Failed to delete transaction');
         } 
