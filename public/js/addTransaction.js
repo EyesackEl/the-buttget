@@ -33,3 +33,6 @@ const newTransactionForm = async (event) => {
 }
 
 document.querySelector('#addTransactionBtn').addEventListener('click', newTransactionForm);
+
+
+

@@ -43,6 +43,7 @@ router.delete('/:id', withAuth, async (req, res) => {
 // ---------------------------------------------------------------------------------------
 router.delete('/sub/:id', withAuth, async (req, res) => {
     try {
+      console.log(1);
       const catData = await Subcategory.destroy({
         where: {
           id: req.params.id,
@@ -55,8 +56,9 @@ router.delete('/sub/:id', withAuth, async (req, res) => {
         return;
       }
   
-      res.status(200).json(catData)
+      res.status(200)
     } catch (err) {
+      console.log(err);
       res.status(500).json(err);
     }
 });
