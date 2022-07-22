@@ -7,11 +7,16 @@ const { Category, Transaction, Expense, User, Subcategory, } = require('../model
 
 // home page to render all of user based budget table, must check if logged in
 //! add an auth here
-router.get('/',  auth, async (req, res) => {
+router.get('/',  async (req, res) => {
     try {
       const userID = req.session.user_id
-      const userData = await User.findByPk(userID, {
+      const userData = await User.findByPk(2, {
         //* where: {user_id: req.session.user_id},
+        attributes: [
+          'category_id',
+          [sequelize.fn('sum', sequelize.col('value')),'sum'],
+        ],
+        group: ['category_id'],
         attributes: {exclude: ['password']}
       });
 
@@ -25,6 +30,7 @@ router.get('/',  auth, async (req, res) => {
       });
 
       const catSumsData = await Transaction.findAll({   //Added to get sums
+        where: { user_id: userID},
         attributes: [
           'category_id',
           [sequelize.fn('sum', sequelize.col('value')),'sum'],
@@ -72,6 +78,7 @@ router.get('/subcategory', async (req, res) => {
     const subCatData = await Subcategory.findByPk(subCatQuery);
 
     const subcatSumsData = await Transaction.findAll({    //Added to get sums
+      where: { user_id: userID},
       attributes: [
         'subcategory_id',
         [sequelize.fn('sum', sequelize.col('value')),'sum'],
@@ -89,6 +96,7 @@ router.get('/subcategory', async (req, res) => {
     })
 
     const expSumsData = await Transaction.findAll({         //Added to get sums
+      where: { user_id: userID},
       attributes: [
         'expense_id',
         [sequelize.fn('sum', sequelize.col('value')),'sum'],

@@ -9,13 +9,13 @@
     {{#each categories as |category|}}
     <div class = "row text-center bdr relative">
         <h3 class = "catName bdr m-0 py-2">{{category.name}}</h3>
-        <a href='/api/category/delete/?id={{category.id}}'class=' col-1 btn btn-danger delCatBtn'>X</a>
+        <button class=' col-1 btn btn-danger delBtn delCatBtn' data-id="{{category.id}}">X</button>
         <a id='addSubCatBtn' class="btn btn-success" href="/add/subcategory?category_id={{category.id}}">+Add Subcategory+</a>
     </div>
         {{#each category.subcategories as |subCategory|}}
         <div class = "row g-0 my-0 bdr relative">
             <div class = "home-col col-4 p-3 bdr text-center">
-                <button class='btn btn-danger delSubCatBtn' data-id="{{subCategory.id}}">X</button>
+                <button class='btn btn-danger delBtn delSubCatBtn' data-id="{{subCategory.id}}">X</button>
                 <a class='subCatLink' href="/subcategory/?subCategory_id={{subCategory.id}}&category_id={{category.id}}">
                     {{subCategory.name}}
                 </a>
@@ -32,7 +32,7 @@
 
 
 
-<script src="/js/deleteSubcategory.js"></script>
+<script src="/js/deleteCatAndSubcat.js"></script>
 
 
 {{!-- https://handlebarsjs.com/guide/builtin-helpers.html#with --}}

@@ -6,15 +6,15 @@
         </div>
     {{#each expenses as |expense|}}
         <div class="relative">
-            <a href='/api/expense/delete/?id={{expense.id}}'class='btn btn-danger delExpBtn'>X</a>
+            <button class='btn btn-danger delBtn delExpBtn' data-id="{{expense.id}}">X</button>
         <div class = "row text-center justify-content-center bdr">
             <h3 class = "subCatTxt col-12m-0 py-2">{{expense.name}}</h3>
-            <a id='addTranBtn' class=" col-5 btn btn-success" href="/add/transaction?expense_id={{expense.id}}">+Add a Transaction+</a>
+            <a id='addTranBtn' class=" col-5 btn btn-success" href="/add/transaction?expense_id={{expense.id}}&subcategory_id={{expense.subcategory_id}}&category_id={{expense.category_id}}">+Add a Transaction+</a>
         </div>
         </div>
         {{#each transactions as |transaction|}}
         <div class="expRow relative">
-                    <a href='/api/transaction/delete/?id={{transaction.id}}'class='btn btn-danger delTranBtn'>X</a>
+                    <button class='btn btn-danger delBtn delTranBtn' data-id="{{transaction.id}}">X</button>
             <div class = "row justify-content-center g-0 my-0 bdr">
                     <div class = "col-7 p-3 bdr text-center">{{format_money transaction.value}}</div>
                     <div class="col-3 p-3 bdr text-center">{{format_date transaction.createdAt}}</div>
@@ -25,4 +25,7 @@
     <div class='row justify-content-end'>    
         <a href='/add/expense?subcategory_id={{subCategory.id}}&category_id={{category.id}}' class="col-4 btn btn-success me-2 my-1" href="/add/transaction?subcategory_id={{subCategory.id}}">+Add Expense+</a>
     </div>
+
+    <script src="/js/deleteTranAndExp.js"></script>
+    {{!-- <script src="/js/deleteExpense.js"></script> --}}
 </main>
